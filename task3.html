@@ -4,93 +4,81 @@
     <meta charset="UTF-8">
     <title>task3</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
-        * {
+        *{
             margin: 0;
             padding: 0;
-            background-color: rgb(42, 211, 236);
             font-size: 1rem;
             color: white;
+            background-color:  rgb(42, 211, 236);
         }
-
-        .frame {
-            width: 80%;
-            height: 100vh;
-            margin: 0 10%;
-            position: relative;
+        .title{
+            height: 30vh;
+            /*background-color: red;*/
+            /*border: 1px solid #000;*/
+            text-align: center;
+            line-height: 30vh;
+        }
+        .title img{
+            width: 80px;
 
         }
-
-        .logo {
-            position: absolute;
-            top: 20%;
-            left: 50%;
-            margin-left: -60px;
+        .content{
+            height: 70vh;
+            width: 70%;
+            /*background-color: blue;*/
+            /*border: 1px solid #000;*/
+            margin: 0 auto;
         }
-
-        .logo img {
-            width: 120px;
+        .content .detail{
+            /*background-color: pink;*/
+            /*border: 1px solid #000;*/
+            height: 60%;
         }
-
-        .description {
-            top: 40%;
-            position: absolute;
-        }
-
-        .logo_1 {
-            bottom: 20%;
-
-            position: absolute;
+        .content .logo ul{
+            list-style:none;
             text-align: center;
         }
-
-        .logo_2 {
-
+        .content .logo li:nth-child(1){
+            float: left;
+            margin-left: 10px;}
+        .content .logo li:nth-child(2){
+            float: right;
+            margin-right: 10px;}
+        .content .logo img{
+            width: 40px;
+        }
+        .icon{
             position: absolute;
-            bottom: 20%;
-            right: 0;
-            text-align: center;
+            left: 15px;
+            top: 15px;
         }
-
-        .icon {
-
-            position: absolute;
-            top: 25px;
-            left: 25px;
+        .icon img{
+            width: 30px;
         }
-
-        .icon img {
-            width: 33px;
-        }
-
-        p {
-            margin-top: 20px;
-        }
-
-        .logo_1 img {
-            width: 55px;
-        }
-
-        .logo_2 img {
-            width: 55px;
+        @media only screen and (min-width: 1024px) {
+            div.content {
+                width: 700px;
+            }
         }
     </style>
 </head>
 <body>
-<div class="frame">
-    <div class="logo"><img src="http://118.126.113.248/jnshu835/logo.png" alt="葡萄藤logo"></div>
-    <div class="description">葡萄藤游戏专注于桌游领域，提供在线杀人游戏，捉鬼，炸狼堡等多种聚会游戏，以线下聚会桌游为主
+<div class="title"><img src="http://118.126.113.248/jnshu835/logo.png" alt=""></div>
+<div class="content">
+    <div class="detail">
+        <p>葡萄藤游戏专注于桌游领域，提供在线杀人游戏，捉鬼，炸狼堡等多种聚会游戏，以线下聚会桌游为主</p>
     </div>
-    <div class="logo_1">
-        <img src="http://118.126.113.248/jnshu835/logo_left.png" alt="左图标">
-        <div><p>22222222</p></div>
+    <div class="logo">
+        <ul>
+            <li><img src="http://118.126.113.248/jnshu835/logo_left.png" alt="">
+                <p>22222222</p></li>
+            <li><img src="http://118.126.113.248/jnshu835/logo_right.png" alt="">
+                <p>BJPTTeng</p></li>
+        </ul>
     </div>
-    <div class="logo_2">
-        <img src="http://118.126.113.248/jnshu835/logo_right.png" alt="右图标">
-        <p>BJPTTeng</p>
-    </div>
-
 </div>
-<div class="icon"><img src="http://118.126.113.248/jnshu835/icon.png" alt="后退"></div>
+<div class="icon"><img src="http://118.126.113.248/jnshu835/icon.png" alt=""></div>
 </body>
 </html>
