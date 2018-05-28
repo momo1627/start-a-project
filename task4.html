@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+       *{
+           margin: 0;
+           padding: 0;
+           
+       }
+       body{
+           background-color: gray;
+       }
+        nav{
+            background-color: rgb(42, 211, 236);
+            height: 50px;
+            color: white;
+            position: relative;
+        }
+        nav ul{
+            list-style:none;
+            line-height: 50px;
+            font-size:1rem;
+        }
+        nav ul li:nth-child(1){
+            position: absolute;
+            left:1%;
+        }
+        nav ul li:nth-child(2){
+            font-size:1.5rem;
+            position: absolute;
+            left: 50%;
+            margin-left: -24px;
+        }
+        nav ul li:nth-child(3){
+            position: absolute;
+            right: 1%;
+       }
+        .account {
+            margin-top: 10px;
+            background-color: white;
+            /*border: 1px solid #000;*/
+            height: 50px;
+        }
+        .account ul{
+            list-style:none;
+            /*border: 1px solid #000;*/
+        }
+       .account ul li{
+           float: left;
+           text-align: center;
+           /*border: 1px solid #000;*/
+           line-height: 50px;
+           height: 50px;
+       }
+        .account ul li:nth-child(1){
+            width: 30px;
+        }
+        .account ul li:nth-child(2){
+            padding-left: 10px;}
+       .account ul li input{
+           border: none;
+           outline: none;
+       }
+
+       .account ul li img{
+           height: 10px;
+           border-right: 1px solid gray;
+           padding: 0 10px;
+           box-sizing: content-box;
+       }
+       .login{
+           margin-top: 10px;
+       }
+        input[type=submit]{
+            background-color: rgb(42, 211, 236);
+            color: white;
+            text-decoration: none;
+            border:none;
+            letter-spacing: 1rem;
+            font-size: 1rem;
+            outline:none;
+            height: 50px;
+        }
+        .footer{
+            position: relative;
+            margin-top: 10px;}
+        .footer a{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <ul>
+        <li>注册</li>
+        <li>登陆</li>
+        <li>关闭</li>
+    </ul>
+</nav>
+<div class="account">
+<ul>
+    <li><img src="http://118.126.113.248/jnshu835/iphone.png" alt=""></li>
+    <li><input type="text" placeholder="请输入手机号"></li>
+</ul>
+</div>
+<div class="account">
+<ul>
+    <li><img src="http://118.126.113.248/jnshu835/locked2.png" alt=""></li>
+    <li><input type="password" placeholder="请输入密码"></li>
+</ul>
+</div>
+<div class="login">
+    <form action="#"><input type="submit" value="登陆" style="width: 100%"></form>
+</div>
+<div class="footer"><a href="#">忘记密码</a></div>
+
+</body>
+</html>
