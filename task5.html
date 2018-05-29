@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            /*font-size: 1rem;*/
+        }
+        .header {
+            width: 100%;
+            height: 50px;
+            background-color: rgb(95, 192, 205);
+            position: fixed;
+            color: white;
+            text-align: center;
+            top: 0;
+            z-index: 998;
+        }
+        .header div:nth-child(1) {
+            position: absolute;
+            left: 5px;
+            top: 2px;
+            line-height: 50px;
+        }
+        .header div:nth-child(2) {
+            line-height: 50px;
+        }
+        .main .personal{
+            margin-top: 50px;
+            background-image: url("http://118.126.113.248/jnshu835/bgc.png");
+            height: 200px;
+            background-repeat:no-repeat;
+            -webkit-background-size:cover;
+            background-size:cover;
+            position: relative;
+        }
+        .main .personal .photo{
+            position: absolute;
+            top: 50%;
+            margin-top: -40px;
+            left: 20px;
+        }
+        .main .personal .photo img{
+            width: 80px;}
+        .main .personal .introduction{
+            left:120px;
+            position: absolute;
+            top: 40%;
+            height: 60px;
+            font-size: 0.8rem;
+            color: white;
+        }
+        .main .personal .introduction .name{
+            margin-bottom:5px;
+        }
+        .main .personal .introduction .position img{
+            height: 1rem;
+            width: 1rem;
+        }
+        .main .skills{
+            height: 50px;
+            line-height:50px;
+            border-bottom: 2px solid gainsboro;
+            box-sizing: border-box;
+
+        }
+        .main .skills span{
+            color: rgb(95, 192, 205);
+        }
+        .main .live{
+            height: 50px;
+            line-height:50px;
+            border-bottom: 2px solid gainsboro;
+            margin:0 10px;
+            box-sizing: border-box;
+        }
+        .main .live span{color: red;}
+        .main .work_experience{
+            height: 50px;
+            border-bottom: 2px solid gainsboro;
+            margin:0 10px;
+            padding: 10px 0;
+            box-sizing: border-box;
+        }
+        .main .work_experience div{
+            display: inline-block;
+            padding:0 10px;
+        }
+        .main .work_experience .title{
+            border-right: 1px solid gainsboro;
+            line-height: 30px;
+        }
+        .main .work_time {
+            height: 50px;
+            border-bottom: 2px solid gainsboro;
+            margin: 0 10px;
+            padding: 10px 0;
+            box-sizing: border-box;
+        }
+        .main .work_time div {
+            display: inline-block;
+            padding: 0 10px;
+        }
+        .main .work_time .title {
+            border-right: 1px solid gainsboro;
+            line-height: 30px;
+        }
+        .main .work_salary {
+            height: 50px;
+            border-bottom: 2px solid gainsboro;
+            margin: 0 10px;
+            padding: 10px 0;
+            box-sizing: border-box;
+        }
+        .main .work_salary div {
+            display: inline-block;
+            padding: 0 10px;
+        }
+        .main .work_salary .title {
+            border-right: 1px solid gainsboro;
+            line-height: 30px;
+        }
+        .main .work_salary .content{
+            color: red;}
+        .main .self {
+            border-bottom: 2px solid gainsboro;
+            padding: 13.5px 0;
+
+            /*box-sizing: border-box;*/
+            margin: 0 10px;
+            position: relative;
+
+
+        }
+        .main .self .title {
+            text-align: center;
+            border-right: 1px solid gainsboro;
+            /*padding: 0 5px;*/
+            /*float: left;*/
+            left: 10px;
+            padding-right: 10px;
+            height: 30px;
+            line-height: 30px;
+            top: 50%;
+            margin-top:-15px;
+            position: absolute;
+            /*box-sizing: border-box;*/
+
+            /*display: inline-block;*/
+        }
+
+        .main .self .content{
+            margin-left: 90px;
+            padding: 0 10px;
+        }
+        .footer {
+            position: fixed;
+            bottom: 0;
+            height: 50px;
+            color: white;
+
+            padding: 10px 0;
+            width: 100%;
+            display: flex;
+            justify-content:space-around;
+        }
+        .footer div{
+            width: 50%;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 1.5rem;
+            margin:0 10px;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+        .footer div:nth-child(1) {
+            background-color: white;
+            border: 1px solid rgb(95, 192, 205);
+            color: rgb(95, 192, 205);
+        }
+
+        .footer div:nth-child(2) {
+            background-color: rgb(95, 192, 205);
+            border: 1px solid rgb(95, 192, 205);
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <div>&lt</div>
+    <div>个人主页</div>
+</div>
+<div class="main">
+    <div class="personal">
+        <div class="photo"><img src="http://118.126.113.248/jnshu835/image.png" alt=""></div>
+        <div class="introduction">
+            <div class="name">徐士林 55岁 </div>
+            <div class="position"><img src="http://118.126.113.248/jnshu835/gps.png" alt=""> 京城 &#8729; 四方 &#8729; 报纸林</div></div>
+    </div>
+    <div class="skills">&ensp;<span>&#9613;</span>专业技能</div>
+    <div class="live">&ensp;<span>&#10025;</span> 住家&ensp;<span>&#10025;</span> 不含餐</div>
+    <div class="work_experience">
+        <div class="title">从业时间</div>
+        <div class="content">0-3年</div>
+    </div>
+    <div class="work_time">
+        <div class="title">工作时间</div>
+        <div class="content">全天</div>
+    </div>
+    <div class="work_salary">
+        <div class="title">服务价格</div>
+        <div class="content">25元/天</div>
+    </div>
+    <div class="self">
+        <div class="title">自我介绍</div>
+        <div class="content">可以洗衣服做饭照顾老人，可以洗衣服做饭照顾老人，可以洗衣服做饭照顾老人，可以洗衣服做饭照顾老人，可以洗衣服做饭照顾老人</div>
+    </div>
+
+</div>
+<div class="footer">
+    <div>留言</div>
+    <div>电话联系</div>
+</div>
+</body>
+</html>
