@@ -10,6 +10,8 @@
             padding: 0;
             /*font-size: 1rem;*/
         }
+        body{
+            padding-bottom: 70px;}
         .header {
             width: 100%;
             height: 50px;
@@ -29,38 +31,54 @@
         .header div:nth-child(2) {
             line-height: 50px;
         }
-        .main .personal{
-            margin-top: 50px;
+        .personal{
             background-image: url("http://118.126.113.248/jnshu835/bgc.png");
             height: 200px;
             background-repeat:no-repeat;
             -webkit-background-size:cover;
             background-size:cover;
-            position: relative;
+            border: 1px transparent;
         }
-        .main .personal .photo{
-            position: absolute;
-            top: 50%;
-            margin-top: -40px;
-            left: 20px;
-        }
-        .main .personal .photo img{
-            width: 80px;}
-        .main .personal .introduction{
-            left:120px;
-            position: absolute;
-            top: 40%;
-            height: 60px;
-            font-size: 0.8rem;
+        .clear{
+            margin-top: 105px;
             color: white;
+            box-sizing: border-box;
+            padding-left: 10px;
+            position: absolute;
+            /*border: 1px solid #000;*/
         }
-        .main .personal .introduction .name{
-            margin-bottom:5px;
+
+
+        .clear>img{
+            position: absolute;
+            height: 70px;
+            margin-top: -15px;
         }
-        .main .personal .introduction .position img{
-            height: 1rem;
-            width: 1rem;
+        .detail{
+            display: inline-block;
+            margin-left: 80px;
+            box-sizing: border-box;
+
         }
+        .name{
+            font-size:1rem;
+        }
+        .name>span{
+            float: right;
+            font-size:0.7rem;
+            margin-top: 3px;
+        }
+        .position>img{
+            position: absolute;
+            bottom: 0.2rem;
+            width: 0.6rem;
+        }
+        .position>span{
+            display: inline-block;
+            margin-left: 20px;
+            font-size: 0.6rem;
+        }
+
         .main .skills{
             height: 50px;
             line-height:50px;
@@ -78,7 +96,11 @@
             margin:0 10px;
             box-sizing: border-box;
         }
-        .main .live span{color: red;}
+        .main .live img{
+            width: 0.7rem;}
+        .main .live span{
+            margin-left: 3px;
+        }
         .main .work_experience{
             height: 50px;
             border-bottom: 2px solid gainsboro;
@@ -128,7 +150,7 @@
             color: red;}
         .main .self {
             border-bottom: 2px solid gainsboro;
-            padding: 13.5px 0;
+            padding: 14px 0;
 
             /*box-sizing: border-box;*/
             margin: 0 10px;
@@ -162,11 +184,14 @@
             bottom: 0;
             height: 50px;
             color: white;
-
+            background-color: white;
             padding: 10px 0;
             width: 100%;
             display: flex;
             justify-content:space-around;
+        }
+        .title{
+            color: rgb(153,153,153);
         }
         .footer div{
             width: 50%;
@@ -188,6 +213,14 @@
             background-color: rgb(95, 192, 205);
             border: 1px solid rgb(95, 192, 205);
         }
+        a{
+            text-decoration: none;
+        }
+        .footer div:nth-child(2) a{
+            color: white;}
+        .footer div:nth-child(1) a{
+            color: rgb(95, 192, 205);}
+
     </style>
 </head>
 <body>
@@ -197,13 +230,17 @@
 </div>
 <div class="main">
     <div class="personal">
-        <div class="photo"><img src="http://118.126.113.248/jnshu835/image.png" alt=""></div>
-        <div class="introduction">
-            <div class="name">徐士林 55岁 </div>
-            <div class="position"><img src="http://118.126.113.248/jnshu835/gps.png" alt=""> 京城 &#8729; 四方 &#8729; 报纸林</div></div>
-    </div>
+        <div class="clear">
+            <img src="http://118.126.113.248/jnshu835/image.png" alt="">
+            <div class="detail">
+                <div class="name">高素雅 <span>51岁</span></div>
+                <div class="position">
+                    <img src="http://118.126.113.248/jnshu835/gps.png" alt=""><span>北京&#8729;通州&#8729;果园</span>
+                </div>
+            </div>
+        </div></div>
     <div class="skills">&ensp;<span>&#9613;</span>专业技能</div>
-    <div class="live">&ensp;<span>&#10025;</span> 住家&ensp;<span>&#10025;</span> 不含餐</div>
+    <div class="live">&ensp;<img src="http://118.126.113.248/jnshu835/star.png" alt=""><span>住家</span>&ensp;<img src="http://118.126.113.248/jnshu835/star.png" alt=""><span>不含餐</span></div>
     <div class="work_experience">
         <div class="title">从业时间</div>
         <div class="content">0-3年</div>
@@ -223,8 +260,8 @@
 
 </div>
 <div class="footer">
-    <div>留言</div>
-    <div>电话联系</div>
+    <div><a href="">留言</a></div>
+    <div><a href="">电话联系</a></div>
 </div>
 </body>
 </html>
