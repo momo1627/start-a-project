@@ -5,16 +5,16 @@
     <title>Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-       *{
-           margin: 0;
-           padding: 0;
-           
-       }
-       body{
-           background-color: gray;
-       }
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        body{
+            background-color: rgb(239,240,244);
+        }
         nav{
-            background-color: rgb(42, 211, 236);
+            background-color: rgb(95, 192, 205);
             height: 50px;
             color: white;
             position: relative;
@@ -29,7 +29,7 @@
             left:1%;
         }
         nav ul li:nth-child(2){
-            font-size:1.5rem;
+            font-size:1.2rem;
             position: absolute;
             left: 50%;
             margin-left: -24px;
@@ -37,83 +37,76 @@
         nav ul li:nth-child(3){
             position: absolute;
             right: 1%;
-       }
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
         .account {
             margin-top: 10px;
             background-color: white;
             /*border: 1px solid #000;*/
             height: 50px;
+            line-height: 50px;
         }
-        .account ul{
-            list-style:none;
-            /*border: 1px solid #000;*/
+        .account img{
+            position: absolute;
+            height: 20px;
+            padding: 5px 25px;
+            border-right: 1px solid rgb(239,240,244);
+            margin-top: 12px;
         }
-       .account ul li{
-           float: left;
-           text-align: center;
-           /*border: 1px solid #000;*/
-           line-height: 50px;
-           height: 50px;
-       }
-        .account ul li:nth-child(1){
-            width: 30px;
-        }
-        .account ul li:nth-child(2){
-            padding-left: 10px;}
-       .account ul li input{
-           border: none;
-           outline: none;
-       }
-
-       .account ul li img{
-           height: 10px;
-           border-right: 1px solid gray;
-           padding: 0 10px;
-           box-sizing: content-box;
-       }
-       .login{
-           margin-top: 10px;
-       }
-        input[type=submit]{
-            background-color: rgb(42, 211, 236);
-            color: white;
-            text-decoration: none;
-            border:none;
-            letter-spacing: 1rem;
-            font-size: 1rem;
+        .account input{
+            margin-left: 90px;
             outline:none;
+            border:none;
+        }
+
+        .login{
+            margin-top: 10px;
             height: 50px;
+            background-color: rgb(95,192,205);
+            text-align: center;
+            line-height: 50px;
+        }
+        .login a{
+            text-decoration: none;
+            color: white;
+            font-size:1.5rem;
+            letter-spacing: 1rem;
         }
         .footer{
             position: relative;
             margin-top: 10px;}
         .footer a{
             float: right;
+            text-decoration: none;
+            color: rgb(95,192,205);
         }
     </style>
 </head>
 <body>
 <nav>
     <ul>
-        <li>注册</li>
-        <li>登陆</li>
-        <li>关闭</li>
+        <li><a href="">注册</a></li>
+        <li>登录</li>
+        <li><a href="">关闭</a></li>
     </ul>
 </nav>
 <div class="account">
-<ul>
-    <li><img src="http://118.126.113.248/jnshu835/iphone.png" alt=""></li>
-    <li><input type="text" placeholder="请输入手机号"></li>
-</ul>
+
+    <img src="http://118.126.113.248/jnshu835/iphone.png" alt="">
+    <input type ="text" placeholder="请输入手机号">
+
 </div>
-<div class="account">
-<ul>
-    <li><img src="http://118.126.113.248/jnshu835/locked2.png" alt=""></li>
-    <li><input type="password" placeholder="请输入密码"></li>
-</ul>
+<div class="password account">
+
+    <img src="http://118.126.113.248/jnshu835/locked2.png" alt="">
+    <input type="password" placeholder="请输入密码">
+
 </div>
 <div class="login">
-    <form action="#"><input type="submit" value="登陆" style="width: 100%"></form>
+    <a href="">登录</a>
 </div>
 <div class="footer"><a href="#">忘记密码</a></div>
 
