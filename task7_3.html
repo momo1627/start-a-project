@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>result</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: #29bcdf;
+        }
+        .header{
+            height: 50px;
+            position: relative;
+            text-align: center;
+            line-height: 50px;
+            color: white;
+            border-bottom: 1px solid gainsboro;
+        }
+        .header img{
+            position: absolute;
+            height: 24px;
+            cursor: pointer;
+        }
+        .header .home{
+            left: 5px;
+            top: 50%;
+            margin-top: -12px;
+        }
+        .header .info{
+            right: 5px;
+            top: 50%;
+            margin-top: -12px;
+        }
+        .box{
+            padding: 0 40px;
+        }
+        .content .box{
+            border-bottom: 1px solid darkgray;
+            padding-top: 10px;
+        }
+        .main .result{
+            margin-top: 10px;
+            height: 150px;
+            background-image: url("http://118.126.113.248/jnshu835/7/killer_win.png");
+            -webkit-background-size: 250px;
+            background-size: 250px;
+            background-position: top center;
+            background-repeat:no-repeat;
+        }
+        .main .text{
+            height: 150px;
+            color: #f9b336;
+            font-size:1.5rem;
+        }
+        .main .detail{
+            color: white;
+            font-size:1rem;
+        }
+        .main .detail .death{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .main .detail .death div{
+            width: 33%;
+        }
+        .content{
+            margin-top: 10px;
+            margin-bottom: 60px;
+            background-color: white;
+            color: darkgray;}
+        .content .title{
+            position: relative;
+            height: 30px;
+        }
+        h4{
+            color: black;
+        }
+        .content .title .time{
+            position: absolute;
+            left: 60%;
+            bottom: 0;
+        }
+        .content .process{
+            padding: 10px 0;
+            font-size:0.8rem;
+        }
+        .footer{
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            padding: 10px;
+            height: 60px;
+            background-color: rgba(41,189,224,0.5);
+            display: flex;
+            justify-content:space-around;
+        }
+        .footer>div{
+            width: 40%;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 10px;
+            text-align: center;
+            cursor: pointer;
+            color: white;
+        }
+        .footer .again{
+            background-color: #f56f6f;}
+        .footer .share{
+            background-color: #fab335;}
+    </style>
+</head>
+<body>
+<div class=" header">
+    <img src="http://118.126.113.248/jnshu835/7/home.png" alt="" class="home">
+    <img src="http://118.126.113.248/jnshu835/7/info.png" alt="" class="info">
+    <div>游戏结果</div>
+</div>
+<div class="main"><div class="box">
+    <div class="result"></div>
+    <div class="text">太棒了！你知道么？在捉鬼游戏中只有20%的卧底取得游戏最终的胜利哦</div>
+    <div class="detail">
+        <div>本次游戏共计用时0小时25分钟</div>
+        <div class="death">
+            <div>杀&nbsp;&nbsp;&nbsp;&nbsp;手0人</div>
+            <div>警&nbsp;&nbsp;&nbsp;&nbsp;察1人</div>
+            <div>平&nbsp;&nbsp;&nbsp;&nbsp;民6人</div>
+            <div>狙击手0人</div>
+            <div>医&nbsp;&nbsp;&nbsp;&nbsp;生1人</div>
+        </div>
+        <div>卧底词汇： 爱新觉罗</div>
+        <div>水民词汇： 努尔哈赤</div>
+    </div>
+</div></div>
+<div class="content">
+    <div class="box"><div class="result_day">
+        <div class="title"><h4>第1天</h4><span class="time">0小时07分</span></div>
+        <div class="process">
+            <div class="night">晚上：5号被杀手杀死，5号是水民</div>
+            <div class="day"></div>白天：8号被全民投票投死，8号是杀手</div>
+    </div></div>
+    <div class="box"><div class="result_day">
+        <div class="title"><h4>第2天</h4><span class="time">0小时07分</span></div>
+        <div class="process">
+            <div class="night">晚上：5号被杀手杀死，5号是水民</div>
+            <div class="day"></div>白天：8号被全民投票投死，8号是杀手</div>
+    </div></div>
+    <div class="box"><div class="result_day">
+        <div class="title"><h4>第3天</h4><span class="time">0小时07分</span></div>
+        <div class="process">
+            <div class="night">晚上：5号被杀手杀死，5号是水民</div>
+            <div class="day"></div>白天：8号被全民投票投死，8号是杀手</div>
+    </div></div>
+    <div class="box"><div class="result_day">
+        <div class="title"><h4>第3天</h4><span class="time">0小时07分</span></div>
+        <div class="process">
+            <div class="night">晚上：5号被杀手杀死，5号是水民</div>
+            <div class="day"></div>白天：8号被全民投票投死，8号是杀手</div>
+    </div></div>
+</div>
+<div class="footer">
+    <div class="again">再来一局</div>
+    <div class="share">上传并分享</div>
+</div>
+</body>
+</html>

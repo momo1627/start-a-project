@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vote</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+
+        body{
+            background-color: #29bcdf;}
+        .header{
+            height: 50px;
+            position: relative;
+            text-align: center;
+            line-height: 50px;
+            color: white;
+        }
+        .header img{
+            position: absolute;
+            height: 24px;
+            cursor: pointer;
+        }
+        .header .option{
+            left: 5px;
+            top: 50%;
+            margin-top: -12px;
+        }
+        .header .cancel{
+            right: 5px;
+            top: 50%;
+            margin-top: -12px;
+        }
+        .speech{
+            height: 50px;
+            background-color: #b9e8f3;
+            line-height: 50px;
+            padding-left: 20px;
+            position: relative;
+        }
+        .speech .audio{
+            position: absolute;
+            right: 5px;
+            top: 0;
+            overflow: hidden;
+        }
+        .speech .audio img{
+            height: 30px;
+            line-height: 30px;
+        }
+        .speech .audio audio{
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+        }
+        .speech .notice{
+            position: relative;
+            height: 30px;
+            font-size:0.7rem;
+            color: white;
+            padding-left: 5px;
+        }
+        .speech .notice img{
+            position: absolute;
+        }
+        .players{
+            margin-top: 40px;
+            margin-bottom:90px;
+        }
+        .players .row{
+            justify-content:space-around;
+            }
+        .player{
+            padding: 0;
+            /*height: 95px;*/
+        }
+        .players .row .player .detail{
+            border: 2px solid white;
+            width: 100%;
+            text-align: center;
+        }
+        .players .row .player .detail .type{
+            background-color: #f3c77b;
+            height: 55px;
+            line-height: 55px;
+        }
+        .players .row .player .detail .number{
+            background-color: #82af9a;
+            font-size:0.8rem;
+            height: 15px;
+            line-height: 15px;
+        }
+        .action{
+            padding: 10px 0;
+            height: 10px;
+            display: flex;
+            text-align: center;
+            justify-content:space-between;
+            align-items: center;
+        }
+        .action img{
+            display: none;
+            width: 20%;
+            height: 10px;
+            background-color: white;
+        }
+        .player:hover .action img{
+            display: block;
+        }
+        @media screen and (min-width:576px){
+            .players .row .player .detail .type{
+                height: 75px;
+                line-height: 75px;}
+            .action{
+                height: 30px;
+            }
+            .action img{
+                height: 15px;
+            }
+        }
+        @media screen and (min-width:992px){
+            .players .row .player .detail .type{
+                height: 95px;
+                line-height: 95px;}
+            .players .row .player .detail .number{
+                height: 20px;
+                line-height: 20px;
+            }
+            .action{
+                height: 40px;
+            }
+            .action img{
+                height: 20px;
+            }
+        }
+        .vote{
+            padding: 20px 0;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            background-color: #29bcdf;
+
+
+        }
+        .vote .button{
+            text-align: center;
+            height: 50px;
+            width: 80%;
+            background-color: #f9b336;
+            color: white;
+            margin: 0 auto;
+            line-height:50px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+<div class="header">投票
+    <img src="http://118.126.113.248/jnshu835/7/option.png" alt="" class="option"><img src="http://118.126.113.248/jnshu835/7/cancel.png" alt="" class="cancel"></div>
+<div class="speech">
+    发言讨论结束，大家请投票
+        <div class="notice">
+            <img src="http://118.126.113.248/jnshu835/7/notice.png" alt="">
+            点击得票数最多人的头像
+        </div>
+    <div class="audio">
+        <audio src="财富自由.mp3" controls></audio>
+        <img src="http://118.126.113.248/jnshu835/7/audio.png" alt="">
+    </div>
+
+</div>
+<div class="players container">
+    <div class="row">
+        <div class="player col-3 .col-sm-2 col-md-2 col-lg-2">
+            <div class="detail">
+            <div class="type">水民</div>
+            <div class="number">1号</div>
+            </div>
+            <div class="action">
+            <img src="http://118.126.113.248/jnshu835/7/kill.png" alt="" >
+            <img src="http://118.126.113.248/jnshu835/7/check.png" alt=""   >
+            <img src="http://118.126.113.248/jnshu835/7/shoot.png" alt=""   >
+            <img src="http://118.126.113.248/jnshu835/7/save.png" alt=""    >
+            </div>
+    </div>
+        <div class="player col-3 .col-sm-2 col-md-2 col-lg-2">
+            <div class="detail">
+            <div class="type">水民</div>
+            <div class="number">1号</div>
+            </div>
+            <div class="action">
+            <img src="http://118.126.113.248/jnshu835/7/kill.png" alt="" >
+            <img src="http://118.126.113.248/jnshu835/7/check.png" alt=""   >
+            <img src="http://118.126.113.248/jnshu835/7/shoot.png" alt=""   >
+            <img src="http://118.126.113.248/jnshu835/7/save.png" alt=""    >
+            </div>
+    </div>
+        <div class="player col-3 .col-sm-2 col-md-2 col-lg-2">
+            <div class="detail">
+            <div class="type">水民</div>
+            <div class="number">1号</div>
+            </div>
+            <div class="action">
+            <img src="http://118.126.113.248/jnshu835/7/kill.png" alt="" >
+            <img src="http://118.126.113.248/jnshu835/7/check.png" alt=""   >
+            <img src="http://118.126.113.248/jnshu835/7/shoot.png" alt=""   >
+            <img src="http://118.126.113.248/jnshu835/7/save.png" alt=""    >
+            </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="player col-3 .col-sm-2 col-md-2 col-lg-2">
+            <div class="detail">
+            <div class="type">水民</div>
+            <div class="number">1号</div>
+            </div>
+            <div class="action">
+            <img src="http://118.126.113.248/jnshu835/7/kill.png" alt="" >
+            <img src="http://118.126.113.248/jnshu835/7/check.png" alt=""   >
+            <img src="http://118.126.113.248/jnshu835/7/shoot.png" alt=""   >
+            <img src="http://118.126.113.248/jnshu835/7/save.png" alt=""    >
+            </div>
+    </div>
+        <div class="player col-3 .col-sm-2 col-md-2 col-lg-2">
+            <div class="detail">
+            <div class="type">水民</div>
+            <div class="number">1号</div>
+            </div>
+            <div class="action">
+            <img src="http://118.126.113.248/jnshu835/7/kill.png" alt="" >
+            <img src="http://118.126.113.248/jnshu835/7/check.png" alt=""   >
+            <img src="http://118.126.113.248/jnshu835/7/shoot.png" alt=""   >
+            <img src="http://118.126.113.248/jnshu835/7/save.png" alt=""    >
+            </div>
+    </div>
+        <div class="player col-3 .col-sm-2 col-md-2 col-lg-2">
+            <div class="detail">
+            <div class="type">水民</div>
+            <div class="number">1号</div>
+            </div>
+            <div class="action">
+            <img src="http://118.126.113.248/jnshu835/7/kill.png" alt="" >
+            <img src="http://118.126.113.248/jnshu835/7/check.png" alt=""   >
+            <img src="http://118.126.113.248/jnshu835/7/shoot.png" alt=""   >
+            <img src="http://118.126.113.248/jnshu835/7/save.png" alt=""    >
+            </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="player col-3 .col-sm-2 col-md-2 col-lg-2">
+            <div class="detail">
+            <div class="type">水民</div>
+            <div class="number">1号</div>
+            </div>
+            <div class="action">
+            <img src="http://118.126.113.248/jnshu835/7/kill.png" alt="" >
+            <img src="http://118.126.113.248/jnshu835/7/check.png" alt=""   >
+            <img src="http://118.126.113.248/jnshu835/7/shoot.png" alt=""   >
+            <img src="http://118.126.113.248/jnshu835/7/save.png" alt=""    >
+            </div>
+    </div>
+        <div class="player col-3 .col-sm-2 col-md-2 col-lg-2">
+            <div class="detail">
+            <div class="type">水民</div>
+            <div class="number">1号</div>
+            </div>
+            <div class="action">
+            <img src="http://118.126.113.248/jnshu835/7/kill.png" alt="" >
+            <img src="http://118.126.113.248/jnshu835/7/check.png" alt=""   >
+            <img src="http://118.126.113.248/jnshu835/7/shoot.png" alt=""   >
+            <img src="http://118.126.113.248/jnshu835/7/save.png" alt=""    >
+            </div>
+    </div>
+        <div class="player col-3 .col-sm-2 col-md-2 col-lg-2">
+            <div class="detail">
+            <div class="type">水民</div>
+            <div class="number">1号</div>
+            </div>
+            <div class="action">
+            <img src="http://118.126.113.248/jnshu835/7/kill.png" alt="" >
+            <img src="http://118.126.113.248/jnshu835/7/check.png" alt=""   >
+            <img src="http://118.126.113.248/jnshu835/7/shoot.png" alt=""   >
+            <img src="http://118.126.113.248/jnshu835/7/save.png" alt=""    >
+            </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="player col-3 .col-sm-2 col-md-2 col-lg-2">
+            <div class="detail">
+            <div class="type">水民</div>
+            <div class="number">1号</div>
+            </div>
+            <div class="action">
+            <img src="http://118.126.113.248/jnshu835/7/kill.png" alt="" >
+            <img src="http://118.126.113.248/jnshu835/7/check.png" alt=""   >
+            <img src="http://118.126.113.248/jnshu835/7/shoot.png" alt=""   >
+            <img src="http://118.126.113.248/jnshu835/7/save.png" alt=""    >
+            </div>
+    </div>
+        <div class="player col-3 .col-sm-2 col-md-2 col-lg-2">
+            <div class="detail">
+            <div class="type">水民</div>
+            <div class="number">1号</div>
+            </div>
+            <div class="action">
+            <img src="http://118.126.113.248/jnshu835/7/kill.png" alt="" >
+            <img src="http://118.126.113.248/jnshu835/7/check.png" alt=""   >
+            <img src="http://118.126.113.248/jnshu835/7/shoot.png" alt=""   >
+            <img src="http://118.126.113.248/jnshu835/7/save.png" alt=""    >
+            </div>
+    </div>
+        <div class="player col-3 .col-sm-2 col-md-2 col-lg-2">
+            <div class="detail">
+            <div class="type">水民</div>
+            <div class="number">1号</div>
+            </div>
+            <div class="action">
+            <img src="http://118.126.113.248/jnshu835/7/kill.png" alt="" >
+            <img src="http://118.126.113.248/jnshu835/7/check.png" alt=""   >
+            <img src="http://118.126.113.248/jnshu835/7/shoot.png" alt=""   >
+            <img src="http://118.126.113.248/jnshu835/7/save.png" alt=""    >
+            </div>
+    </div>
+    </div>
+</div>
+<div class="vote">
+    <div class="button">投死</div>
+</div>
+<audio src=""></audio>
+</body>
+</html>

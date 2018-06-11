@@ -1,0 +1,183 @@
+.title{
+    padding: 10px 5px;
+    font-size: 1rem;
+    background-color: rgb(95, 192, 205);
+    text-align: center;
+    position: relative;
+    /*width: 100%;*/
+}
+.title img{
+    height: 1.5rem;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -0.75rem;
+}
+
+.title .selection_1 {
+    background-color: rgb(85, 168, 179);
+    border-radius: 5px;
+    padding: 5px 0 5px 5px;
+}
+.title .selection_1 a{
+    text-decoration: none;
+    color: white;
+}
+.title .selection_2 {
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    background-color: white;
+}
+.title .selection_2 a{
+    text-decoration: none;
+    color: rgb(95, 192, 205);
+}
+@media screen and (min-width: 576px){
+    .container{
+        width:100%;}
+}
+.container_1{
+    width: 100%;
+}
+.container_1 .row_1 {
+    padding: 5px 5px;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container_1 .row_1 .select{
+    padding:  0 5px;
+    border-right: 1px solid ghostwhite;
+    flex-grow:1;
+}
+.container_1 .row_1 .select:nth-child(3){
+    border:none}
+.container_1 .row_1  .button{
+    text-align: center;
+    position: relative;
+    background-image: url("http://118.126.113.248/jnshu835/xiala.png");
+    background-repeat:no-repeat;
+    background-size:0.4rem;
+    background-position: right center;
+    font-size:0.8rem;
+}
+.container_1 .row_1 .button .btn{
+    text-outline:none;
+    padding: 0;
+    background-color: white;
+    color:gainsboro;
+}
+.dpd{
+    display: none;
+    position: absolute;
+    border: 1px solid white;
+    list-style:none;
+    padding: 0;
+    width: 100%;
+    background-color: darkgray;
+    z-index: 999}
+.dpd li{
+    border-bottom: 1px solid gainsboro;
+}
+
+.dpd li a{
+    font-size:0.8rem;
+    text-decoration: none;
+    color: gainsboro;
+}
+.button:hover .dpd{
+    display: block;
+}
+.content{
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+    padding: 5px 5px;
+}
+
+.content .content_left{
+    font-size: 0.8rem;
+    padding-left: 5px;
+}
+.content .content_left>div{
+    padding-left: 15px;
+}
+.content .content_left .date{
+    background-image: url("http://118.126.113.248/jnshu835/date.png");
+    background-repeat:no-repeat;
+    -webkit-background-size:0.6rem;
+    background-size:0.6rem;
+    background-position: left center;
+    color: rgb(197,197,197);
+}
+.content .content_left .position{
+    background-image: url("http://118.126.113.248/jnshu835/location.png");
+    background-repeat:no-repeat;
+    -webkit-background-size:0.6rem;
+    background-size:0.6rem;
+    background-position: left center;
+    color: rgb(197,197,197);
+
+}
+.content .content_right{
+    text-align: center;
+}
+.content .content_right span{
+    color: rgb(234,91,54);
+    font-size:1rem;
+    background-image: url("http://118.126.113.248/jnshu835/forword.png");
+    background-repeat:no-repeat;
+    background-position: center right;
+    -webkit-background-size:0.5rem;
+    background-size:0.5rem;
+    padding-right:15px;
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width: 320px) {
+    .content_left>div>div { white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden    }
+}
+.footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(248,250,251);
+    height: 50px;
+    border-top: 1px solid gainsboro;
+}
+
+.footer div{
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 25px;
+    font-size:0.7rem;
+    margin-top: 5px;
+}
+.footer img{
+    height:50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -25px;
+}
+.footer .home{
+    background-image: url("http://118.126.113.248/jnshu835/home.png");
+    background-repeat:no-repeat;
+    background-position: center 3px;
+    -webkit-background-size:25px;
+    background-size:25px;
+    color: rgb(95, 192, 205);
+}
+.footer .profile{
+    background-image: url("http://118.126.113.248/jnshu835/wode.png");
+    background-repeat:no-repeat;
+    background-position: center 3px;
+    -webkit-background-size:25px;
+    background-size:25px;
+    color:gainsboro;
+}
