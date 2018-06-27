@@ -16,15 +16,16 @@
         padding: 1rem 0;
     }
 }
-@media only screen and(min-width: 768px) {
+
+@media (min-width: 768px)  {
     .navbar .nav-link {
         text-decoration: none;
         border-bottom:4px solid transparent;
     }
     .navbar-nav .active{
         border-bottom:4px solid white;
+
     }
     .navbar .nav-link:hover{
         border-bottom:4px solid white;
-    }
-}
+    }}

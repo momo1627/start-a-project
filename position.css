@@ -2,20 +2,9 @@
     color: #1db076;
 }
 .bg_green{
-    background: #1db076;
-}
-@media (min-width: 576px)  {
-    .navbar .nav-link {
-        text-decoration: none;
-        border-bottom:4px solid transparent;
-    }
-    .navbar-nav .active{
-        border-bottom:4px solid white;
+              background: #1db076;
+          }
 
-    }
-    .navbar .nav-link:hover{
-        border-bottom:4px solid white;
-    }}
 .main{
     background-color: #f9f9f9;
     padding-bottom:20rem;
