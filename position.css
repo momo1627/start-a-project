@@ -44,22 +44,24 @@
     visibility: visible;
     opacity:1;
 }
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) {
     .card{
         width: 30%;
     }
 }
-@media (max-width: 991.98px) {
+@media only screen and (max-width: 991.98px) {
     .card{
-        min-width:47%;
+        width:47%;
     }
 }
-@media (max-width: 575.98px) {
+@media only screen and (max-width: 575.98px) {
     .card{
         min-width: 100%;
         margin: 0 auto
     }
 }
+
+
 .positions .position_img{
     background-image: url("http://118.126.113.248/jnshu835/8/touxiang.png");
     background-repeat:no-repeat;
