@@ -23,9 +23,6 @@
 .main_color{
     color: #1db076;
 }
-.breadcrumb{
-    background-color: white;
-}
 .breadcrumb-item a{
     text-decoration: none;
 }

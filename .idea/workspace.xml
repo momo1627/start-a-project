@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="638cb6bc-8f7c-4dee-93c0-612f741c5194" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reference.css" afterPath="$PROJECT_DIR$/reference.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/position.css" afterPath="$PROJECT_DIR$/position.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task8_1.html" afterPath="$PROJECT_DIR$/task8_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task8_2.html" afterPath="$PROJECT_DIR$/task8_2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task8_3.html" afterPath="$PROJECT_DIR$/task8_3.html" />
     </list>
     <ignored path="start-a-project.iws" />
@@ -28,16 +30,10 @@
       <file leaf-file-name="task8_1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task8_1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.070175">
-              <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-              <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-              <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+            <state vertical-scroll-proportion="9.350877">
+              <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
               <folding>
-                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#button#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -75,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task8_2.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="task8_2.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task8_2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5263157">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="74" />
+            <state vertical-scroll-proportion="0.78293604">
+              <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -92,8 +88,8 @@
       <file leaf-file-name="position.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/position.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.368422">
-              <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+            <state vertical-scroll-proportion="-3.368421">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
               <folding>
                 <element signature="e#11#34#0" expanded="false" />
                 <element signature="e#44#72#0" expanded="false" />
@@ -103,30 +99,31 @@
                 <element signature="e#306#352#0" expanded="false" />
                 <element signature="e#359#419#0" expanded="false" />
                 <element signature="e#431#454#0" expanded="false" />
-                <element signature="e#466#498#0" expanded="false" />
-                <element signature="e#517#547#0" expanded="false" />
-                <element signature="e#614#678#0" expanded="false" />
-                <element signature="e#719#771#0" expanded="false" />
-                <element signature="e#787#827#0" expanded="false" />
-                <element signature="e#844#1079#0" expanded="false" />
-                <element signature="e#1108#1151#0" expanded="false" />
-                <element signature="e#1414#1604#0" expanded="false" />
-                <element signature="e#1632#1682#0" expanded="false" />
+                <element signature="e#473#503#0" expanded="false" />
+                <element signature="e#570#634#0" expanded="false" />
+                <element signature="e#675#727#0" expanded="false" />
+                <element signature="e#743#783#0" expanded="false" />
+                <element signature="e#800#1035#0" expanded="false" />
+                <element signature="e#1064#1107#0" expanded="false" />
+                <element signature="e#1370#1560#0" expanded="false" />
+                <element signature="e#1588#1638#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task8_3.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="task8_3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task8_3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44792974">
-              <caret line="42" column="91" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
+            <state vertical-scroll-proportion="-6.982456">
+              <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#button#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#ol#0;n#nav#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -295,13 +292,13 @@
         <option value="$PROJECT_DIR$/footer.css" />
         <option value="$PROJECT_DIR$/positon.css" />
         <option value="$PROJECT_DIR$/media.css" />
-        <option value="$PROJECT_DIR$/position.css" />
         <option value="$PROJECT_DIR$/nav.css" />
         <option value="$PROJECT_DIR$/home.css" />
-        <option value="$PROJECT_DIR$/task8_1.html" />
-        <option value="$PROJECT_DIR$/task8_2.html" />
-        <option value="$PROJECT_DIR$/task8_3.html" />
         <option value="$PROJECT_DIR$/reference.css" />
+        <option value="$PROJECT_DIR$/task8_1.html" />
+        <option value="$PROJECT_DIR$/task8_3.html" />
+        <option value="$PROJECT_DIR$/position.css" />
+        <option value="$PROJECT_DIR$/task8_2.html" />
       </list>
     </option>
   </component>
@@ -563,7 +560,13 @@
       <option name="project" value="LOCAL" />
       <updated>1530109514466</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="task8,9&#10;">
+      <created>1530109673483</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1530109673483</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView">
@@ -999,19 +1002,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5263157">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="e#8#95#0" expanded="false" />
-            <element signature="e#105#153#0" expanded="false" />
-            <element signature="e#169#210#0" expanded="false" />
-            <element signature="e#221#289#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.789474">
@@ -1046,18 +1036,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5263157">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="e#8#95#0" expanded="false" />
+            <element signature="e#105#153#0" expanded="false" />
+            <element signature="e#169#210#0" expanded="false" />
+            <element signature="e#221#289#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/task8_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.070175">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+        <state vertical-scroll-proportion="9.350877">
+          <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
           <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#button#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1079,18 +1076,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task8_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5263157">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="74" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reference.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.5789475">
@@ -1099,41 +1084,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/position.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.368422">
-          <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
-          <folding>
-            <element signature="e#11#34#0" expanded="false" />
-            <element signature="e#44#72#0" expanded="false" />
-            <element signature="e#73#353#0" expanded="false" />
-            <element signature="e#124#207#0" expanded="false" />
-            <element signature="e#231#278#0" expanded="false" />
-            <element signature="e#306#352#0" expanded="false" />
-            <element signature="e#359#419#0" expanded="false" />
-            <element signature="e#431#454#0" expanded="false" />
-            <element signature="e#466#498#0" expanded="false" />
-            <element signature="e#517#547#0" expanded="false" />
-            <element signature="e#614#678#0" expanded="false" />
-            <element signature="e#719#771#0" expanded="false" />
-            <element signature="e#787#827#0" expanded="false" />
-            <element signature="e#844#1079#0" expanded="false" />
-            <element signature="e#1108#1151#0" expanded="false" />
-            <element signature="e#1414#1604#0" expanded="false" />
-            <element signature="e#1632#1682#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task8_3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44792974">
-          <caret line="42" column="91" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
+        <state vertical-scroll-proportion="-6.982456">
+          <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#button#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ol#0;n#nav#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1143,6 +1104,43 @@
             <element signature="n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/position.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.368421">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#11#34#0" expanded="false" />
+            <element signature="e#44#72#0" expanded="false" />
+            <element signature="e#73#353#0" expanded="false" />
+            <element signature="e#124#207#0" expanded="false" />
+            <element signature="e#231#278#0" expanded="false" />
+            <element signature="e#306#352#0" expanded="false" />
+            <element signature="e#359#419#0" expanded="false" />
+            <element signature="e#431#454#0" expanded="false" />
+            <element signature="e#473#503#0" expanded="false" />
+            <element signature="e#570#634#0" expanded="false" />
+            <element signature="e#675#727#0" expanded="false" />
+            <element signature="e#743#783#0" expanded="false" />
+            <element signature="e#800#1035#0" expanded="false" />
+            <element signature="e#1064#1107#0" expanded="false" />
+            <element signature="e#1370#1560#0" expanded="false" />
+            <element signature="e#1588#1638#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task8_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.78293604">
+          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
