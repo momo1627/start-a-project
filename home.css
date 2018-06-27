@@ -186,6 +186,9 @@
     .students .card{
         max-width: 28rem;
     }
+    .links{
+        text-align: center;
+    }
 }
 @media (min-width: 1200px) {
     .students .card{
