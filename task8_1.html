@@ -4,216 +4,13 @@
     <meta charset="UTF-8">
     <title>Home</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <style>
-        .body_color{
-            color: #1db076;
-        }
-        .bg_green{
-            background: #1db076;
-        }
-        .navbar-light .navbar-toggler{
-            border:none;
-        }
-        .navbar-brand img{
-            height: 2rem;
-        }
-        @media (min-width: 576px)  {
-            .navbar .nav-link {
-                text-decoration: none;
-                border-bottom:4px solid transparent;
-            }
-            .navbar-nav .active{
-                border-bottom:4px solid white;
-
-            }
-            .navbar .nav-link:hover{
-                border-bottom:4px solid white;
-            }}
-        .carousel-indicators{
-            bottom: -10px;
-        }
-        .carousel-indicators li{
-            width: 15px;
-            height: 15px;
-            border-radius: 100%;
-            background-color: white;
-            border:1px solid gainsboro;
-        }
-        .carousel-indicators .active{
-            background-color: green;
-            border:none;
-        }
-        @media (max-width:575.98px) {
-            .text_1{
-                font-size:0.6rem;
-
-            }
-            .text_2{
-                font-size:0.8rem;  line-height: 0.5;
-            }
-            .text_3{
-                font-size:1.2rem;
-            }
-            .carousel-caption{
-                position: absolute;
-                top: 20%;
-            }
-        }
-        @media (min-width: 576px) {
-            .text_1{
-                font-size:1.2rem;
-
-            }
-            .text_2{
-                font-size:1.4rem;  line-height: 0.5;
-            }
-            .text_3{
-                font-size:2rem;
-            }
-            .carousel-caption{
-                position: absolute;
-                top: 25%;
-            }
-        }
-        @media (min-width: 768px) {
-            .text_1{
-                font-size:1.5rem;
-            }
-            .text_2{
-                font-size:2rem;  line-height: 0.5;
-            }
-            .text_3{
-                font-size:2.5rem;
-            }
-            .carousel-caption{
-                position: absolute;
-                top: 30%;
-            }
-        }
-        @media (min-width: 992px) {
-            .text_1{
-                font-size:2rem;
-
-            }
-            .text_2{
-                font-size:2.5rem;  line-height: 0.5;
-            }
-            .text_3{
-                font-size:4rem;
-            }
-            .carousel-caption{
-                position: absolute;
-                top: 35%;
-            }
-            .carousel-indicators{
-                bottom: 0;
-            }
-        }
-        .main{
-            background-color: #fafafa;
-        }
-        .main img{
-            width: 50px;
-        }
-        .main .card_img{
-            height: 100px;
-        }
-        .main .card-text{
-            letter-spacing: 0.2rem;
-        }
-        .main .customer{
-            color: #1db076;
-            background-image: url("http://118.126.113.248/jnshu835/8/user.png");
-            background-repeat:no-repeat;
-            background-position: left center;
-        }
-        .step .circle_icon{
-            color: #1db076;
-            width: 4rem;
-            height: 4rem;
-            text-align: center;
-            line-height: 4rem;
-            box-shadow: 0 3px 3px 0 #f1f0f0;
-            flex-grow:0;
-            margin-right: 8px;
-        }
-        .step img{
-            height: 1.5rem;
-            width: 1.5rem;
-        }
-        .step .step_detail{
-            font-size:0.7rem;
-        }
-        .students .carousel-indicators{
-            position: relative;
-            top: 2rem;
-        }
-        .students .card{
-            max-width: 15rem;
-        }
-        .student_img1{
-            width: 6rem;
-            height: 6rem;
-            background-image: url("http://118.126.113.248/jnshu835/8/stu1.png");
-            background-size:cover;
-            background-repeat:no-repeat;
-        }.student_img2{
-             width: 6rem;
-             height: 6rem;
-             background-image: url("http://118.126.113.248/jnshu835/8/stu2.png");
-             background-size:cover;
-             background-repeat:no-repeat;
-         }.student_img3{
-              width: 6rem;
-              height: 6rem;
-              background-image: url("http://118.126.113.248/jnshu835/8/stu3.png");
-              background-size:cover;
-              background-repeat:no-repeat;
-          }.student_img4{
-               width: 6rem;
-               height: 6rem;
-               background-image: url("http://118.126.113.248/jnshu835/8/stu4.png");
-               background-size:cover;
-               background-repeat:no-repeat;
-           }
-        .companies img{
-            height: 10rem;
-            width: 10rem;
-        }
-        .companies .row div:hover{
-            box-shadow: 0 0px 5px 5px #f1f0f0
-        }
-        .links li{
-            list-style-position: inside;
-            cursor: pointer;
-        }
-        .links li a{
-            text-decoration: none;
-            color: #000;
-        }
-        .links li:hover a{
-            border-bottom: 1px solid #1db076;
-        }
-        .footer {
-            background-color: #1db076;
-            letter-spacing: 0.1rem;
-            word-spacing:0.3rem;
-        }
-        .footer a{
-            text-decoration: none;
-            color: white;
-        }
-        .footer a:hover{
-            border-bottom: 1px solid #ffffff;
-        }
-        .copyright{
-            border-top: 1px solid #28a745;
-            background-color: #1db076;}
-    </style>
+    <link rel="stylesheet" href="nav.css" >
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="home.css">
 </head>
 <body>
 <div class="contact container">
-    <div class="row text-success justify-content-between py-1 mx-0" >
+    <div class="row text-success justify-content-between py-1 mx-0 flex-nowrap" >
         <div class="body_color"><span class="">客服热线：010-594-78634</span></div>
         <div class="">
             <a href="" class="align-text-center ml-2"><img src="http://118.126.113.248/jnshu835/8/weixin.png" alt=""></a>
@@ -230,10 +27,10 @@
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="menu_nav">
         <div class="navbar-nav">
-                <a href="http://118.126.113.248/jnshu835/task8_1.html" class="  text-white nav-item nav-link px-4 text-center active">首页</a>
-                <a href="http://118.126.113.248/jnshu835/task8_2.html" class="  text-white nav-item nav-link px-4 text-center">职业</a>
-                <a href="http://118.126.113.248/jnshu835/task8_3.html" class="  text-white nav-item nav-link px-4 text-center">推荐</a>
-                <a href="" class="nav-item nav-link px-4 text-white text-center ">关于</a>
+                <a href="http://118.126.113.248/jnshu835/task8_1.html" class="  text-white nav-item nav-link p-4 text-center active">首页</a>
+                <a href="http://118.126.113.248/jnshu835/task8_2.html" class="  text-white nav-item nav-link p-4 text-center">职业</a>
+                <a href="http://118.126.113.248/jnshu835/task8_3.html" class="  text-white nav-item nav-link p-4 text-center">推荐</a>
+                <a href="" class="nav-item nav-link p-4 text-white text-center ">关于</a>
         </div>
     </div></div>
 </nav>
@@ -327,8 +124,9 @@
             <div class="col-xs-12 col-md py-2 px-0 d-flex justify-content-center align-items-center">
                 <div class="circle_icon bg-white rounded-circle border border-muted font-weight-bold">4</div>
                 <div class="step_detail w-50">查看职业目标任务</div></div>
-            <img src="http://118.126.113.248/jnshu835/8/step.png" alt="" class="mx-auto d-md-none">
-            <div class="w-100 d-md-block d-none"></div>
+            <img src="http://118.126.113.248/jnshu835/8/step.png" alt="" class="mx-auto d-md-none"></div>
+        <div class="row justify-content-between align-items-center">
+
             <div class="col-xs-12 col-md py-2 px-0 d-flex justify-content-center align-items-center">
                 <div class="circle_icon bg-white rounded-circle border border-muted font-weight-bold">5</div>
                 <div class="step_detail w-50">参考学习资源&#44;掌握技能点&#44;逐个完成任务</div></div>
@@ -353,25 +151,25 @@
                 <div class="carousel-item active">
                     <div class="container">
                         <div class="row justify-content-between">
-                            <div class="card mt-3 mx-auto col-12 col-md-6 col-lg-3">
+                            <div class="card mt-3 mx-auto col-12 col-md-6  col-xl-3">
                                 <div class="card-body">
                                     <div class="student_img1 rounded-circle mx-auto mb-3"></div>
                                     <h5 class="card-title text-center font-weight-bold mb-3">技术顾问&#58;罗大佑</h5>
                                     <p class="card-text text-muted small">百度技术总监&#58;互联网基础服务领域&#44;从事虚拟主机&#44;云服务器&#44;域名&#46;曾任新闻高级技术经理&#44;负责技术研发&#44;团队管理与建设&#46;</p>
                                 </div></div>
-                            <div class="card mt-3 mx-auto col-12 col-md-6 col-lg-3">
+                            <div class="card mt-3 mx-auto col-12 col-md-6  col-xl-3">
                                 <div class="card-body">
                                     <div class="student_img2 rounded-circle mx-auto mb-3"></div>
                                     <h5 class="card-title text-center font-weight-bold mb-3">技术顾问&#58;罗大佑</h5>
                                     <p class="card-text text-muted small">百度技术总监&#58;互联网基础服务领域&#44;从事虚拟主机&#44;云服务器&#44;域名&#46;曾任新闻高级技术经理&#44;负责技术研发&#44;团队管理与建设&#46;</p>
                                 </div></div>
-                            <div class="card mt-3 mx-auto col-12 col-md-6 col-lg-3">
+                            <div class="card mt-3 mx-auto col-12 col-md-6  col-xl-3">
                                 <div class="card-body">
                                     <div class="student_img3 rounded-circle mx-auto mb-3"></div>
                                     <h5 class="card-title text-center font-weight-bold mb-3">技术顾问&#58;罗大佑</h5>
                                     <p class="card-text text-muted small">百度技术总监&#58;互联网基础服务领域&#44;从事虚拟主机&#44;云服务器&#44;域名&#46;曾任新闻高级技术经理&#44;负责技术研发&#44;团队管理与建设&#46;</p>
                                 </div></div>
-                            <div class="card mt-3 mx-auto col-12 col-md-6 col-lg-3">
+                            <div class="card mt-3 mx-auto col-12 col-md-6  col-xl-3">
                                 <div class="card-body">
                                     <div class="student_img4 rounded-circle mx-auto mb-3"></div>
                                     <h5 class="card-title text-center font-weight-bold mb-3">技术顾问&#58;罗大佑</h5>
@@ -383,25 +181,25 @@
                 <div class="carousel-item">
                     <div class="container">
                         <div class="row justify-content-between">
-                            <div class="card mt-3 mx-auto col-12 col-md-6 col-lg-3">
+                            <div class="card mt-3 mx-auto col-12 col-md-6 col-xl-3">
                                 <div class="card-body">
                                     <div class="student_img1 rounded-circle mx-auto mb-3"></div>
                                     <h5 class="card-title text-center font-weight-bold mb-3">技术顾问&#58;罗大佑</h5>
                                     <p class="card-text text-muted small">百度技术总监&#58;互联网基础服务领域&#44;从事虚拟主机&#44;云服务器&#44;域名&#46;曾任新闻高级技术经理&#44;负责技术研发&#44;团队管理与建设&#46;</p>
                                 </div></div>
-                            <div class="card mt-3 mx-auto col-12 col-md-6 col-lg-3">
+                            <div class="card mt-3 mx-auto col-12 col-md-6 col-xl-3">
                                 <div class="card-body">
                                     <div class="student_img2 rounded-circle mx-auto mb-3"></div>
                                     <h5 class="card-title text-center font-weight-bold mb-3">技术顾问&#58;罗大佑</h5>
                                     <p class="card-text text-muted small">百度技术总监&#58;互联网基础服务领域&#44;从事虚拟主机&#44;云服务器&#44;域名&#46;曾任新闻高级技术经理&#44;负责技术研发&#44;团队管理与建设&#46;</p>
                                 </div></div>
-                            <div class="card mt-3 mx-auto col-12 col-md-6 col-lg-3">
+                            <div class="card mt-3 mx-auto col-12 col-md-6 col-xl-3">
                                 <div class="card-body">
                                     <div class="student_img3 rounded-circle mx-auto mb-3"></div>
                                     <h5 class="card-title text-center font-weight-bold mb-3">技术顾问&#58;罗大佑</h5>
                                     <p class="card-text text-muted small">百度技术总监&#58;互联网基础服务领域&#44;从事虚拟主机&#44;云服务器&#44;域名&#46;曾任新闻高级技术经理&#44;负责技术研发&#44;团队管理与建设&#46;</p>
                                 </div></div>
-                            <div class="card mt-3 mx-auto col-12 col-md-6 col-lg-3">
+                            <div class="card mt-3 mx-auto col-12 col-md-6 col-xl-3">
                                 <div class="card-body">
                                     <div class="student_img4 rounded-circle mx-auto mb-3"></div>
                                     <h5 class="card-title text-center font-weight-bold mb-3">技术顾问&#58;罗大佑</h5>
@@ -413,25 +211,25 @@
                 <div class="carousel-item">
                     <div class="container">
                         <div class="row justify-content-between">
-                            <div class="card mt-3 mx-auto col-12 col-md-6 col-lg-3">
+                            <div class="card mt-3 mx-auto col-12 col-md-6 col-xl-3">
                                 <div class="card-body">
                                     <div class="student_img1 rounded-circle mx-auto mb-3"></div>
                                     <h5 class="card-title text-center font-weight-bold mb-3">技术顾问&#58;罗大佑</h5>
                                     <p class="card-text text-muted small">百度技术总监&#58;互联网基础服务领域&#44;从事虚拟主机&#44;云服务器&#44;域名&#46;曾任新闻高级技术经理&#44;负责技术研发&#44;团队管理与建设&#46;</p>
                                 </div></div>
-                            <div class="card mt-3 mx-auto col-12 col-md-6 col-lg-3">
+                            <div class="card mt-3 mx-auto col-12 col-md-6 col-xl-3">
                                 <div class="card-body">
                                     <div class="student_img2 rounded-circle mx-auto mb-3"></div>
                                     <h5 class="card-title text-center font-weight-bold mb-3">技术顾问&#58;罗大佑</h5>
                                     <p class="card-text text-muted small">百度技术总监&#58;互联网基础服务领域&#44;从事虚拟主机&#44;云服务器&#44;域名&#46;曾任新闻高级技术经理&#44;负责技术研发&#44;团队管理与建设&#46;</p>
                                 </div></div>
-                            <div class="card mt-3 mx-auto col-12 col-md-6 col-lg-3">
+                            <div class="card mt-3 mx-auto col-12 col-md-6 col-xl-3">
                                 <div class="card-body">
                                     <div class="student_img3 rounded-circle mx-auto mb-3"></div>
                                     <h5 class="card-title text-center font-weight-bold mb-3">技术顾问&#58;罗大佑</h5>
                                     <p class="card-text text-muted small">百度技术总监&#58;互联网基础服务领域&#44;从事虚拟主机&#44;云服务器&#44;域名&#46;曾任新闻高级技术经理&#44;负责技术研发&#44;团队管理与建设&#46;</p>
                                 </div></div>
-                            <div class="card mt-3 mx-auto col-12 col-md-6 col-lg-3">
+                            <div class="card mt-3 mx-auto col-12 col-md-6 col-xl-3">
                                 <div class="card-body">
                                     <div class="student_img4 rounded-circle mx-auto mb-3"></div>
                                     <h5 class="card-title text-center font-weight-bold mb-3">技术顾问&#58;罗大佑</h5>
@@ -452,12 +250,12 @@
     </div>
     <div class="container companies py-5">
         <h5 class="text-center py-5">战略合作企业</h5>
-        <div class="row bg-white border border-muted text-center">
-            <div class="col-12 col-md"><img class="py-1 " src="http://118.126.113.248/jnshu835/8/alibaba.png" alt=""></div>
-            <div class="col-12 col-md"><img class="py-1 " src="http://118.126.113.248/jnshu835/8/jinshan.png" alt=""></div>
-            <div class="col-12 col-md"><img class="py-1 " src="http://118.126.113.248/jnshu835/8/huanxin.png" alt=""></div>
-            <div class="col-12 col-md"><img class="py-1 " src="http://118.126.113.248/jnshu835/8/yuntongxin.png" alt=""></div>
-            <div class="col-12 col-md"><img class="py-1 " src="http://118.126.113.248/jnshu835/8/qiniu.png" alt=""></div>
+        <div class="row bg-white border border-muted text-center mx-auto">
+            <div class="col-xs-12 mx-auto col-lg px-0"><img class="py-1 " src="http://118.126.113.248/jnshu835/8/alibaba.png" alt=""></div>
+            <div class="col-xs-12 mx-auto col-lg px-0"><img class="py-1 " src="http://118.126.113.248/jnshu835/8/jinshan.png" alt=""></div>
+            <div class="col-xs-12 mx-auto col-lg px-0"><img class="py-1 " src="http://118.126.113.248/jnshu835/8/huanxin.png" alt=""></div>
+            <div class="col-xs-12 mx-auto col-lg px-0"><img class="py-1 " src="http://118.126.113.248/jnshu835/8/yuntongxin.png" alt=""></div>
+            <div class="col-xs-12 mx-auto col-lg px-0"><img class="py-1 " src="http://118.126.113.248/jnshu835/8/qiniu.png" alt=""></div>
         </div>
     </div>
     <div class="container links px-0 pb-5">
@@ -489,7 +287,6 @@
             <li class="py-1 small col-4 col-sm-3 col-lg-2 "><a href="" class="py-1">找工作</a></li>
         </div>
     </div>
-
 </div>
 <div class="footer container-fluid py-3">
     <div class="container text-white">

@@ -1,0 +1,30 @@
+.navbar-light .navbar-toggler{
+    border:none;
+}
+.navbar-light .navbar-toggler:focus{
+    text-decoration: none;
+    outline: 0;
+}
+.navbar-brand img{
+    height: 2rem;
+}
+@media (max-width:767.98px){
+    .navbar .nav-link:hover,.navbar-nav .active {
+        background-color: rgba(0,0,0,0.1);
+    }
+    .navbar-brand{
+        padding: 1rem 0;
+    }
+}
+@media (min-width: 768px) {
+    .navbar .nav-link {
+        text-decoration: none;
+        border-bottom:4px solid transparent;
+    }
+    .navbar-nav .active{
+        border-bottom:4px solid white;
+    }
+    .navbar .nav-link:hover{
+        border-bottom:4px solid white;
+    }
+}

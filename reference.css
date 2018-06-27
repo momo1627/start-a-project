@@ -1,0 +1,58 @@
+.body_color{
+    color: #1db076;
+}
+.bg_green{
+    background: #1db076;
+}
+.title{
+    background-color: #f2a746;
+}
+.main{
+    background-color: #f9f9f9;
+}
+.main_color{
+    color: #1db076;
+}
+.content_border{
+    border-bottom:1px solid #e1e0e0;
+}
+.breadcrumb{
+    background-color: #f9f9f9;
+}
+.breadcrumb-item:nth-child(2)::before{
+    content:">";
+}
+.breadcrumb-item a{
+    text-decoration: none;
+}
+.main .content_left .nav-highlight{
+    width: 0.6rem;
+    height: 0.6rem;
+    border:2px solid #f2a646;
+    display: inline-block;
+}
+.main .content_left .nav-link{
+    color: #1db076;
+    padding: 0.6rem;
+    font-size: 0.8rem;
+    height: 1rem;
+    line-height: 1rem;
+}
+.main .content_left .nav-link:hover div{
+    background-color: #f2a646;
+}
+.main .content_left .nav-link:hover{
+    color: #f2a646;
+}
+.main .content_left .nav li .actived{
+    color: #f2a646;
+}
+.main .content_left .nav li .actived div{
+    background-color: #f2a646;
+}
+.content_right{
+    line-height:2;
+}
+.content_right .company{
+    text-indent:2rem;
+}

@@ -1,0 +1,194 @@
+.body_color{
+    color: #1db076;
+}
+.bg_green{
+    background: #1db076;
+}
+.carousel-indicators{
+    bottom: -10px;
+}
+.carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: white;
+    border:1px solid gainsboro;
+}
+.carousel-indicators .active{
+    background-color: green;
+    border:none;
+}
+.main{
+    background-color: #fafafa;
+}
+.main img{
+    width: 50px;
+}
+.main .card_img{
+    height: 100px;
+}
+.main .card-text{
+    letter-spacing: 0.2rem;
+}
+.main .customer{
+    color: #1db076;
+    background-image: url("http://118.126.113.248/jnshu835/8/user.png");
+    background-repeat:no-repeat;
+    background-position: left center;
+}
+.step .circle_icon{
+    color: #1db076;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    line-height: 4rem;
+    box-shadow: 0 3px 3px 0 #f1f0f0;
+    flex-grow:0;
+    margin-right: 8px;
+}
+.step img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.step .step_detail{
+    font-size:0.7rem;
+}
+.students .carousel-indicators{
+    position: relative;
+    top: 2rem;
+}
+.student_img1{
+    width: 6rem;
+    height: 6rem;
+    background-image: url("http://118.126.113.248/jnshu835/8/stu1.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+}.student_img2{
+     width: 6rem;
+     height: 6rem;
+     background-image: url("http://118.126.113.248/jnshu835/8/stu2.png");
+     background-size:cover;
+     background-repeat:no-repeat;
+ }.student_img3{
+      width: 6rem;
+      height: 6rem;
+      background-image: url("http://118.126.113.248/jnshu835/8/stu3.png");
+      background-size:cover;
+      background-repeat:no-repeat;
+  }.student_img4{
+       width: 6rem;
+       height: 6rem;
+       background-image: url("http://118.126.113.248/jnshu835/8/stu4.png");
+       background-size:cover;
+       background-repeat:no-repeat;
+   }
+.companies img{
+    height: 10rem;
+    width: 10rem;
+}
+.companies .row div:hover{
+    box-shadow: 0 0px 5px 5px #f1f0f0
+}
+
+.links li{
+    list-style-position: inside;
+    cursor: pointer;
+}
+.links li a{
+    text-decoration: none;
+    color: #000;
+}
+.links li:hover a{
+    border-bottom: 1px solid #1db076;
+}
+
+@media (max-width:575.98px) {
+    .text_1{
+        font-size:0.6rem;
+
+    }
+    .text_2{
+        font-size:0.8rem;  line-height: 0.5;
+    }
+    .text_3{
+        font-size:1.2rem;
+    }
+    .carousel-caption{
+        position: absolute;
+        top: 20%;
+    }
+
+}
+@media (max-width:767.98px) {
+    .step img{
+        transform: rotate(90deg);
+    }
+
+}
+@media (max-width:991.98px){
+    .companies .row{
+        width: 75%;
+    }
+}
+
+@media (min-width: 576px) {
+    .text_1{
+        font-size:1.2rem;
+
+    }
+    .text_2{
+        font-size:1.4rem;  line-height: 0.5;
+    }
+    .text_3{
+        font-size:2rem;
+    }
+    .carousel-caption{
+        position: absolute;
+        top: 25%;
+    }
+}
+@media (min-width: 768px) {
+    .text_1{
+        font-size:1.5rem;
+    }
+    .text_2{
+        font-size:2rem;  line-height: 0.5;
+    }
+    .text_3{
+        font-size:2.5rem;
+    }
+    .carousel-caption{
+        position: absolute;
+        top: 30%;
+    }
+    .students .card{
+        max-width: 20rem;
+    }
+}
+@media (min-width: 992px) {
+    .text_1{
+        font-size:2rem;
+
+    }
+    .text_2{
+        font-size:2.5rem;  line-height: 0.5;
+    }
+    .text_3{
+        font-size:4rem;
+    }
+    .carousel-caption{
+        position: absolute;
+        top: 35%;
+    }
+    .carousel-indicators{
+        bottom: 0;
+    }
+    .students .card{
+        max-width: 28rem;
+    }
+}
+@media (min-width: 1200px) {
+    .students .card{
+        max-width: 15rem;
+    }
+}
