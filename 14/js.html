@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Dom chapter 1-4 summary</title>
+    <script>
+        function showPic(pic){
+            var source = pic.getAttribute("href");
+            var target = document.getElementById("placeholder");
+            target.setAttribute("src",source)
+            var text = pic.getAttribute("title");
+            var description = document.getElementById("description");
+            description.firstChild.nodeValue = text;
+        }
+        function countBodyChildren(){
+            var body_Element = document.getElementsByTagName("body")[0];
+        }
+        window.onload = countBodyChildren;
+    </script>
+</head>
+<body>
+<h1>Snapshots</h1>
+<ul>
+    <li><a onclick="showPic(this);return false;" href="http://118.126.113.248/jnshu835/8/rocket.png" title="firework display">Fireworks</a></li>
+    <li><a onclick="showPic(this);return false;" href="http://118.126.113.248/jnshu835/8/regulation.png" title="A red coffee">Coffee</a></li>
+    <li><a onclick="showPic(this);return false;" href="http://118.126.113.248/jnshu835/8/reference.png" title="The famous clock">Rose</a></li>
+</ul>
+<img src="http://via.placeholder.com/350x150" alt="My image gallery" id="placeholder">
+<p id="description">Choose an image.</p>
+<h1>Summary</h1>
+<h4>相关基础内容</h4>
+<p>JS是解释性程序设计语言，Web浏览器是解释器，负责有关代码解释执行</p>
+<h4>JS基础</h4>
+<p>statement之间“;”间隔，养成良好习惯</p>
+<p>"//" 注释提高代码可读性</p>
+<p>var variable = data 变量严格var声明</p>
+<p>data类型,字符串，数值，布尔值，转义字符</p>
+<p>数组variable = Array（data,data）或 variable = [data,data,...]</p>
+<p>对象variable = Object(propertyName:value,propertyName:value) 或 variable = {propertyName:value,propertyName:value}</p>
+<p>操作符 +,-,*,/,++,+=,%</p>
+<h4>JS语法</h4>
+<h6>条件语句</h6>
+<p>if (condition){statement;} else if (condition) {statement} else{statement}</p>
+<p>条件condition：比较：>,<,>=,<=,!==,===,逻辑操作符：&&与,||或</p>
+<h6>循环语句</h6>
+<p>while循环:initial condition;while(condition){statement; increment}</p>
+<p>do while循环: initial condition;do {statement increment} while(condition)</p>
+<p>for循环 for (initial condition; test condition; increment/alter condition</p>
+<h6>函数</h6>
+<p>function nameName(parameter){condition}</p>
+<p>全局变量：函数外定义变量，局部变量，函数内定义变量</p>
+<h6>对象</h6>
+<p>对象Object，对象的属性：object.property 对象的方法object.method()</p>
+<p>var 实例 = new 对象</p>
+</body>
+</html>

@@ -1,0 +1,39 @@
+@slideshow_number:2;
+@slideshow_width:(@slideshow_number + 2) * 100vw;
+@slideshow_speed:5s;
+@keyframes move {
+  from{
+    margin-left: 0;
+  }
+  to{
+    margin-left: -240vw;
+  }
+}
+.stuffshow{
+  overflow: hidden;
+  .slides_container{
+    width: 320vw;
+    animation: move @slideshow_speed linear 0s infinite alternate;
+    &:hover{
+      /*动画添加给谁, 就让谁停止*/
+      animation-play-state: paused;
+    }
+    .slides_box{
+      float: left;
+      list-style: none;
+      background-color: #fafafa;
+      box-sizing: border-box;
+      &:hover{
+        opacity: 0.5;
+      }
+      :hover{
+        opacity: 1;
+      }
+      .slide{
+        width: 80vw;
+      }
+    }
+  }
+}
+
+

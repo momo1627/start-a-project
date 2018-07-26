@@ -1,0 +1,23 @@
+.text_main{
+    color:#1db076;
+}
+.text_highlight{
+    color: #f2a746;
+}
+.bgc_main{
+    background-color: #1db076;
+}
+
+
+.bgc_highlight{
+    background-color: #f2a746;
+}
+.b_highlight{border-color: #f2a746;}
+
+
+.content_padding{
+    padding:1rem 0;
+}
+.detail_padding{
+    padding:0.5rem 0;
+}

@@ -1,0 +1,78 @@
+@color_main:#1db076;
+@bgc_main:#1db076;
+@min-screen:576px;
+@max-screen:@min-screen - 0.5px;
+@link_gap:1rem;
+@link_padding:1rem;
+.nav{
+  background-color: @bgc_main;
+  @media screen and (min-width: @min-screen){
+    display: flex;
+    justify-content:space-between;
+    background-color: @bgc_main;
+  }
+  .nav_brand{
+    font-size: 2rem;
+    .logo{
+      height: 2rem;
+      vertical-align: middle;
+    }
+  }
+  .nav_button{
+    background-color: @bgc_main;
+    border: none;
+    float: right;
+    margin-top: 0.5rem;
+    @media screen and (max-width: @max-screen){
+      &:focus{
+        outline: none;
+      }
+    }
+    @media screen and (min-width: @min-screen){display: none;
+    }
+  }
+  .collapse {
+    @media screen and (max-width: @max-screen) {
+      text-align: center;
+      display: none;
+    }
+    @media screen and (min-width: @min-screen) {
+      display: block !important;
+    }
+    .nav_bar {
+      display: flex;
+      @media screen and (max-width: @max-screen) {
+        display: block;
+      }
+        .active {
+        @media screen and (max-width: @max-screen) {
+          background-color: rgba(0, 0, 0, 0.3)
+        }
+          @media screen and (min-width: @min-screen) {
+            border-bottom: 2px solid white;
+          }}
+        .nav_item {
+          cursor: pointer;
+          list-style: none;
+          padding: @link_padding 0;
+          &:hover {
+            @media screen and (max-width: @max-screen) {
+              background-color: rgba(0, 0, 0, 0.3)
+            }
+            @media screen and (min-width: @min-screen) {
+              border-bottom: 2px solid white;
+            }
+          }
+          .nav_link {
+            text-decoration: none;
+            color: white;
+            padding: 0 @link_gap;
+          }
+        }
+      }
+    }
+  }
+
+
+
+

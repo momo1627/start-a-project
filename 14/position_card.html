@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="14_layout.css">
+    <link rel="stylesheet/less" type="text/css" href="card.less" />
+    <link rel="stylesheet/less" type="text/css" href="position.less" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.7.1/less.min.js" ></script>
+    <style>
+
+    </style>
+</head>
+<body>
+<!--<div class="mt-5 row mx-0 justify-content-between">
+    <div class="card bx_1 mb-3 position-relative">
+        <div class="row p-2 mx-0">
+            <div class="col-5 position_img"></div>
+            <div class="col-7 position_detail align-self-center">
+                <h6 class="media-title">Web前端工程师</h6>
+                <div class="small">Web前端开发工程师，主要职责时利用（X）HTML/CSS/JavaScript/<br>flash等各种Web技术进行产品的开发</div>
+            </div>
+        </div>
+        <div class="card-body p-0">
+            <div class="row mx-0">
+                <div class="col-6 px-2 border-top border-right border-bottom">
+                    <div class="row py-2  justify-content-start align-items-center">
+                        <div class="col-auto text-muted small pr-0">门槛</div>
+                        <div class="col-auto p-0 pl-2"><img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="align-middle"></div></div></div>
+                <div class="col-6 px-2 border-top border-bottom">
+                    <div class="row justify-content-start align-items-center py-2">
+                        <div class="col-auto text-muted small pr-0">难易程度</div>
+                        <div class="col-auto p-0 pl-2"><img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="align-middle"></div>
+                        <div class="col-auto p-0 pl-2"><img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="align-middle"></div></div>
+                </div>
+
+                <div class="col-6 px-2 border-bottom border-right">
+                    <div class="text-nowrap small py-2 "><span class="text-muted">成长周期</span><span class="text-danger font-weight-bold">1-3</span>年</div></div>
+                <div class="col-6 px-2 border-bottom">
+                    <div class=" small py-2"><span class="text-muted">稀缺程度</span><span class="text-danger font-weight-bold">345</span>家公司需要</div></div>
+
+                <div class="col-5 px-2  text-center align-self-center small">薪资待遇</div>
+                <div class="col-7 border-left small">
+                    <div class="row d-flex justify-content-between p-2"><div class="text-nowrap">0-1年</div> <div class="text-nowrap text-right">5k-10k/月</div></div>
+                    <div class="row border-top d-flex justify-content-between p-2"><div class="text-nowrap">1-3年</div> <div class="text-nowrap text-right">10k-20k/月</div></div>
+                    <div class="row border-top d-flex justify-content-between p-2"><div class="text-nowrap">3-5年</div> <div class="text-nowrap text-right">20k-50k/月</div></div>
+                </div>
+                <div class="col-12 border-top p-2">有<span class="text-danger font-weight-bold">286</span>人在学</div>
+                <div class="col-12 border-top p-2 text-muted small">提示：在你学习之前你应该已经掌握XXXXX、XX等语言基础</div>
+            </div>
+        </div>
+        <div class="w-100 h-100 position-absolute text-center bx_2 p-5">
+            <h5 >ios工程师</h5>
+            <p class="small mt-5">ios是由苹果公司开发的移动操作系统。ios与苹果的Mac OC X操作系统意义，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</p></div>
+    </div>
+    <div class="card bx_1 mb-3 position-relative">
+        <div class="row p-2 mx-0">
+            <div class="col-5 position_img"></div>
+            <div class="col-7 position_detail align-self-center">
+                <h6 class="media-title">Web前端工程师</h6>
+                <div class="small">Web前端开发工程师，主要职责时利用（X）HTML/CSS/JavaScript/<br>flash等各种Web技术进行产品的开发</div>
+            </div>
+        </div>
+        <div class="card-body p-0">
+            <div class="row mx-0">
+                <div class="">
+                    <div class="row py-2  justify-content-start align-items-center">
+                        <div class="col-auto text-muted small pr-0">门槛</div>
+                        <div class="col-auto p-0 pl-2"><img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="align-middle"></div></div></div>
+                <div class="">
+                    <div class="row justify-content-start align-items-center py-2">
+                        <div class="col-auto text-muted small pr-0">难易程度</div>
+                        <div class="col-auto p-0 pl-2"><img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="align-middle"></div>
+                        <div class="col-auto p-0 pl-2"><img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="align-middle"></div></div>
+                </div>
+
+                <div class="col-6 px-2 border-bottom border-right">
+                    <div class="text-nowrap small py-2 "><span class="text-muted">成长周期</span><span class="text-danger font-weight-bold">1-3</span>年</div></div>
+                <div class="col-6 px-2 border-bottom">
+                    <div class=" small py-2"><span class="text-muted">稀缺程度</span><span class="text-danger font-weight-bold">345</span>家公司需要</div></div>
+
+                <div class="col-5 px-2  text-center align-self-center small">薪资待遇</div>
+                <div class="col-7 border-left small">
+                    <div class="row d-flex justify-content-between p-2"><div class="text-nowrap">0-1年</div> <div class="text-nowrap text-right">5k-10k/月</div></div>
+                    <div class="row border-top d-flex justify-content-between p-2"><div class="text-nowrap">1-3年</div> <div class="text-nowrap text-right">10k-20k/月</div></div>
+                    <div class="row border-top d-flex justify-content-between p-2"><div class="text-nowrap">3-5年</div> <div class="text-nowrap text-right">20k-50k/月</div></div>
+                </div>
+                <div class="col-12 border-top p-2">有<span class="text-danger font-weight-bold">286</span>人在学</div>
+                <div class="col-12 border-top p-2 text-muted small">提示：在你学习之前你应该已经掌握XXXXX、XX等语言基础</div>
+            </div>
+        </div>
+        <div class="w-100 h-100 position-absolute text-center bx_2 p-5">
+            <h5 >ios工程师</h5>
+            <p class="small mt-5">ios是由苹果公司开发的移动操作系统。ios与苹果的Mac OC X操作系统意义，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</p></div>
+    </div>
+    <div class="card bx_1 mb-3 position-relative">
+        <div class="row p-2 mx-0">
+            <div class="col-5 position_img"></div>
+            <div class="col-7 position_detail align-self-center">
+                <h6 class="media-title">Web前端工程师</h6>
+                <div class="small">Web前端开发工程师，主要职责时利用（X）HTML/CSS/JavaScript/<br>flash等各种Web技术进行产品的开发</div>
+            </div>
+        </div>
+        <div class="card-body p-0">
+            <div class="row mx-0">
+                <div class="col-6 px-2 border-top border-right border-bottom">
+                    <div class="row py-2  justify-content-start align-items-center">
+                        <div class="col-auto text-muted small pr-0">门槛</div>
+                        <div class="col-auto p-0 pl-2"><img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="align-middle"></div></div></div>
+                <div class="col-6 px-2 border-top border-bottom">
+                    <div class="row justify-content-start align-items-center py-2">
+                        <div class="col-auto text-muted small pr-0">难易程度</div>
+                        <div class="col-auto p-0 pl-2"><img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="align-middle"></div>
+                        <div class="col-auto p-0 pl-2"><img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="align-middle"></div></div>
+                </div>
+
+                <div class="col-6 px-2 border-bottom border-right">
+                    <div class="text-nowrap small py-2 "><span class="text-muted">成长周期</span><span class="text-danger font-weight-bold">1-3</span>年</div></div>
+                <div class="col-6 px-2 border-bottom">
+                    <div class=" small py-2"><span class="text-muted">稀缺程度</span><span class="text-danger font-weight-bold">345</span>家公司需要</div></div>
+
+                <div class="col-5 px-2  text-center align-self-center small">薪资待遇</div>
+                <div class="col-7 border-left small">
+                    <div class="row d-flex justify-content-between p-2"><div class="text-nowrap">0-1年</div> <div class="text-nowrap text-right">5k-10k/月</div></div>
+                    <div class="row border-top d-flex justify-content-between p-2"><div class="text-nowrap">1-3年</div> <div class="text-nowrap text-right">10k-20k/月</div></div>
+                    <div class="row border-top d-flex justify-content-between p-2"><div class="text-nowrap">3-5年</div> <div class="text-nowrap text-right">20k-50k/月</div></div>
+                </div>
+                <div class="col-12 border-top p-2">有<span class="text-danger font-weight-bold">286</span>人在学</div>
+                <div class="col-12 border-top p-2 text-muted small">提示：在你学习之前你应该已经掌握XXXXX、XX等语言基础</div>
+            </div>
+        </div>
+        <div class="w-100 h-100 position-absolute text-center bx_2 p-5">
+            <h5 >ios工程师</h5>
+            <p class="small mt-5">ios是由苹果公司开发的移动操作系统。ios与苹果的Mac OC X操作系统意义，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</p></div>
+    </div>
+</div>-->
+<div class="position_header">
+            <div class="nav_title">方向：</div>
+            <ul class="position_nav">
+                <li class="nav-item"><a href="" class="nav-link active">全部</a></li>
+                <li class="nav-item"><a href="" class="nav-link">前端开发</a></li>
+                <li class="nav-item"><a href="" class="nav-link">后端开发</a></li>
+                <li class="nav-item"><a href="" class="nav-link">移动开发</a></li>
+                <li class="nav-item"><a href="" class="nav-link">整站开发</a></li>
+                <li class="nav-item"><a href="" class="nav-link">运营维护</a></li>
+            </ul>
+</div>
+<div class="position_title"><h4>前端开发方向</h4></div>
+<div class="position_body">
+<div class="position_card">
+<div class="card_horizon">
+    <div class="card_logo">
+        <img src="http://118.126.113.248/jnshu835/8/touxiang.png" alt="" class="card_img">
+    </div>
+    <div class="card_body">
+        <div class="card_title">Web前端工程师</div>
+        <div class="card_detail">Web前端开发工程师，主要职责时利用（X）HTML/CSS/JavaScript/<br>flash等各种Web技术进行产品的开发</div>
+    </div>
+</div>
+    <div class="table">
+    <div class="row">
+            <div class="col_half">门槛<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+            <div class="col_half">难易程度<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"><img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+    </div>
+    <div class="row">
+            <div class="col_half">成长周期<span class="red">1-3</span>年</div>
+            <div class="col_half">稀缺程度<span class="red">345</span>家公司需要</div>
+    </div>
+    <div class="row padding_none">
+            <div class="col_oneofthird salary_title">薪资待遇</div>
+            <div class="col_towofthird">
+                <div class="row salary">0-1年<span class="">5k-10k/月</span></div>
+                <div class="row salary">1-3年<span class="">10k-20k/月</span></div>
+                <div class="row salary">3-5年<span class="">20k-50k/月</span></div>
+            </div>
+    </div>
+    <div class="row"><div>有<span class="red">286</span>人在学</div></div>
+    <div class="row"><div>提示：在你学习之前你应该已经掌握XXXXX、XX等语言基础</div></div>
+    </div>
+    <div class="position_detail ">
+        <h2 >ios工程师</h2>
+        <p class="small mt-5">ios是由苹果公司开发的移动操作系统。ios与苹果的Mac OC X操作系统意义，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</p></div>
+</div>
+<div class="position_card">
+<div class="card_horizon">
+    <div class="card_logo">
+        <img src="http://118.126.113.248/jnshu835/8/touxiang.png" alt="" class="card_img">
+    </div>
+    <div class="card_body">
+        <div class="card_title">Web前端工程师</div>
+        <div class="card_detail">Web前端开发工程师，主要职责时利用（X）HTML/CSS/JavaScript/<br>flash等各种Web技术进行产品的开发</div>
+    </div>
+</div>
+    <div class="table">
+    <div class="row">
+            <div class="col_half">门槛<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+            <div class="col_half">难易程度<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"><img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+    </div>
+    <div class="row">
+            <div class="col_half">成长周期<span class="red">1-3</span>年</div>
+            <div class="col_half">稀缺程度<span class="red">345</span>家公司需要</div>
+    </div>
+    <div class="row padding_none">
+            <div class="col_oneofthird salary_title">薪资待遇</div>
+            <div class="col_towofthird">
+                <div class="row salary">0-1年<span class="">5k-10k/月</span></div>
+                <div class="row salary">1-3年<span class="">10k-20k/月</span></div>
+                <div class="row salary">3-5年<span class="">20k-50k/月</span></div>
+            </div>
+    </div>
+    <div class="row"><div>有<span class="red">286</span>人在学</div></div>
+    <div class="row"><div>提示：在你学习之前你应该已经掌握XXXXX、XX等语言基础</div></div>
+    </div>
+    <div class="position_detail ">
+        <h2 >ios工程师</h2>
+        <p class="small mt-5">ios是由苹果公司开发的移动操作系统。ios与苹果的Mac OC X操作系统意义，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</p></div>
+</div>
+<div class="position_card">
+<div class="card_horizon">
+    <div class="card_logo">
+        <img src="http://118.126.113.248/jnshu835/8/touxiang.png" alt="" class="card_img">
+    </div>
+    <div class="card_body">
+        <div class="card_title">Web前端工程师</div>
+        <div class="card_detail">Web前端开发工程师，主要职责时利用（X）HTML/CSS/JavaScript/<br>flash等各种Web技术进行产品的开发</div>
+    </div>
+</div>
+    <div class="table">
+    <div class="row">
+            <div class="col_half">门槛<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+            <div class="col_half">难易程度<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"><img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+    </div>
+    <div class="row">
+            <div class="col_half">成长周期<span class="red">1-3</span>年</div>
+            <div class="col_half">稀缺程度<span class="red">345</span>家公司需要</div>
+    </div>
+    <div class="row padding_none">
+            <div class="col_oneofthird salary_title">薪资待遇</div>
+            <div class="col_towofthird">
+                <div class="row salary">0-1年<span class="">5k-10k/月</span></div>
+                <div class="row salary">1-3年<span class="">10k-20k/月</span></div>
+                <div class="row salary">3-5年<span class="">20k-50k/月</span></div>
+            </div>
+    </div>
+    <div class="row"><div>有<span class="red">286</span>人在学</div></div>
+    <div class="row"><div>提示：在你学习之前你应该已经掌握XXXXX、XX等语言基础</div></div>
+    </div>
+    <div class="position_detail ">
+        <h2 >ios工程师</h2>
+        <p class="small mt-5">ios是由苹果公司开发的移动操作系统。ios与苹果的Mac OC X操作系统意义，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</p></div>
+</div></div>
+<div class="position_title"><h4>后端开发方向</h4></div>
+<div class="position_body">
+    <div class="position_card">
+        <div class="card_horizon">
+            <div class="card_logo">
+                <img src="http://118.126.113.248/jnshu835/8/touxiang.png" alt="" class="card_img">
+            </div>
+            <div class="card_body">
+                <div class="card_title">Web前端工程师</div>
+                <div class="card_detail">Web前端开发工程师，主要职责时利用（X）HTML/CSS/JavaScript/<br>flash等各种Web技术进行产品的开发</div>
+            </div>
+        </div>
+        <div class="table">
+            <div class="row">
+                <div class="col_half">门槛<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+                <div class="col_half">难易程度<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"><img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+            </div>
+            <div class="row">
+                <div class="col_half">成长周期<span class="red">1-3</span>年</div>
+                <div class="col_half">稀缺程度<span class="red">345</span>家公司需要</div>
+            </div>
+            <div class="row padding_none">
+                <div class="col_oneofthird salary_title">薪资待遇</div>
+                <div class="col_towofthird">
+                    <div class="row salary">0-1年<span class="">5k-10k/月</span></div>
+                    <div class="row salary">1-3年<span class="">10k-20k/月</span></div>
+                    <div class="row salary">3-5年<span class="">20k-50k/月</span></div>
+                </div>
+            </div>
+            <div class="row"><div>有<span class="red">286</span>人在学</div></div>
+            <div class="row"><div>提示：在你学习之前你应该已经掌握XXXXX、XX等语言基础</div></div>
+        </div>
+        <div class="position_detail ">
+            <h2 >ios工程师</h2>
+            <p class="small mt-5">ios是由苹果公司开发的移动操作系统。ios与苹果的Mac OC X操作系统意义，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</p></div>
+    </div>
+    <div class="position_card">
+        <div class="card_horizon">
+            <div class="card_logo">
+                <img src="http://118.126.113.248/jnshu835/8/touxiang.png" alt="" class="card_img">
+            </div>
+            <div class="card_body">
+                <div class="card_title">Web前端工程师</div>
+                <div class="card_detail">Web前端开发工程师，主要职责时利用（X）HTML/CSS/JavaScript/<br>flash等各种Web技术进行产品的开发</div>
+            </div>
+        </div>
+        <div class="table">
+            <div class="row">
+                <div class="col_half">门槛<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+                <div class="col_half">难易程度<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"><img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+            </div>
+            <div class="row">
+                <div class="col_half">成长周期<span class="red">1-3</span>年</div>
+                <div class="col_half">稀缺程度<span class="red">345</span>家公司需要</div>
+            </div>
+            <div class="row padding_none">
+                <div class="col_oneofthird salary_title">薪资待遇</div>
+                <div class="col_towofthird">
+                    <div class="row salary">0-1年<span class="">5k-10k/月</span></div>
+                    <div class="row salary">1-3年<span class="">10k-20k/月</span></div>
+                    <div class="row salary">3-5年<span class="">20k-50k/月</span></div>
+                </div>
+            </div>
+            <div class="row"><div>有<span class="red">286</span>人在学</div></div>
+            <div class="row"><div>提示：在你学习之前你应该已经掌握XXXXX、XX等语言基础</div></div>
+        </div>
+        <div class="position_detail ">
+            <h2 >ios工程师</h2>
+            <p class="small mt-5">ios是由苹果公司开发的移动操作系统。ios与苹果的Mac OC X操作系统意义，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</p></div>
+    </div>
+    <div class="position_card">
+        <div class="card_horizon">
+            <div class="card_logo">
+                <img src="http://118.126.113.248/jnshu835/8/touxiang.png" alt="" class="card_img">
+            </div>
+            <div class="card_body">
+                <div class="card_title">Web前端工程师</div>
+                <div class="card_detail">Web前端开发工程师，主要职责时利用（X）HTML/CSS/JavaScript/<br>flash等各种Web技术进行产品的开发</div>
+            </div>
+        </div>
+        <div class="table">
+            <div class="row">
+                <div class="col_half">门槛<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+                <div class="col_half">难易程度<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"><img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+            </div>
+            <div class="row">
+                <div class="col_half">成长周期<span class="red">1-3</span>年</div>
+                <div class="col_half">稀缺程度<span class="red">345</span>家公司需要</div>
+            </div>
+            <div class="row padding_none">
+                <div class="col_oneofthird salary_title">薪资待遇</div>
+                <div class="col_towofthird">
+                    <div class="row salary">0-1年<span class="">5k-10k/月</span></div>
+                    <div class="row salary">1-3年<span class="">10k-20k/月</span></div>
+                    <div class="row salary">3-5年<span class="">20k-50k/月</span></div>
+                </div>
+            </div>
+            <div class="row"><div>有<span class="red">286</span>人在学</div></div>
+            <div class="row"><div>提示：在你学习之前你应该已经掌握XXXXX、XX等语言基础</div></div>
+        </div>
+        <div class="position_detail ">
+            <h2 >ios工程师</h2>
+            <p class="small mt-5">ios是由苹果公司开发的移动操作系统。ios与苹果的Mac OC X操作系统意义，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</p></div>
+    </div>
+    <div class="position_card">
+        <div class="card_horizon">
+            <div class="card_logo">
+                <img src="http://118.126.113.248/jnshu835/8/touxiang.png" alt="" class="card_img">
+            </div>
+            <div class="card_body">
+                <div class="card_title">Web前端工程师</div>
+                <div class="card_detail">Web前端开发工程师，主要职责时利用（X）HTML/CSS/JavaScript/<br>flash等各种Web技术进行产品的开发</div>
+            </div>
+        </div>
+        <div class="table">
+            <div class="row">
+                <div class="col_half">门槛<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+                <div class="col_half">难易程度<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"><img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+            </div>
+            <div class="row">
+                <div class="col_half">成长周期<span class="red">1-3</span>年</div>
+                <div class="col_half">稀缺程度<span class="red">345</span>家公司需要</div>
+            </div>
+            <div class="row padding_none">
+                <div class="col_oneofthird salary_title">薪资待遇</div>
+                <div class="col_towofthird">
+                    <div class="row salary">0-1年<span class="">5k-10k/月</span></div>
+                    <div class="row salary">1-3年<span class="">10k-20k/月</span></div>
+                    <div class="row salary">3-5年<span class="">20k-50k/月</span></div>
+                </div>
+            </div>
+            <div class="row"><div>有<span class="red">286</span>人在学</div></div>
+            <div class="row"><div>提示：在你学习之前你应该已经掌握XXXXX、XX等语言基础</div></div>
+        </div>
+        <div class="position_detail ">
+            <h2 >ios工程师</h2>
+            <p class="small mt-5">ios是由苹果公司开发的移动操作系统。ios与苹果的Mac OC X操作系统意义，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</p></div>
+    </div>
+    <div class="position_card">
+        <div class="card_horizon">
+            <div class="card_logo">
+                <img src="http://118.126.113.248/jnshu835/8/touxiang.png" alt="" class="card_img">
+            </div>
+            <div class="card_body">
+                <div class="card_title">Web前端工程师</div>
+                <div class="card_detail">Web前端开发工程师，主要职责时利用（X）HTML/CSS/JavaScript/<br>flash等各种Web技术进行产品的开发</div>
+            </div>
+        </div>
+        <div class="table">
+            <div class="row">
+                <div class="col_half">门槛<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+                <div class="col_half">难易程度<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"><img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+            </div>
+            <div class="row">
+                <div class="col_half">成长周期<span class="red">1-3</span>年</div>
+                <div class="col_half">稀缺程度<span class="red">345</span>家公司需要</div>
+            </div>
+            <div class="row padding_none">
+                <div class="col_oneofthird salary_title">薪资待遇</div>
+                <div class="col_towofthird">
+                    <div class="row salary">0-1年<span class="">5k-10k/月</span></div>
+                    <div class="row salary">1-3年<span class="">10k-20k/月</span></div>
+                    <div class="row salary">3-5年<span class="">20k-50k/月</span></div>
+                </div>
+            </div>
+            <div class="row"><div>有<span class="red">286</span>人在学</div></div>
+            <div class="row"><div>提示：在你学习之前你应该已经掌握XXXXX、XX等语言基础</div></div>
+        </div>
+        <div class="position_detail ">
+            <h2 >ios工程师</h2>
+            <p class="small mt-5">ios是由苹果公司开发的移动操作系统。ios与苹果的Mac OC X操作系统意义，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</p></div>
+    </div>
+    <div class="position_card invisible">
+        <div class="card_horizon">
+            <div class="card_logo">
+                <img src="http://118.126.113.248/jnshu835/8/touxiang.png" alt="" class="card_img">
+            </div>
+            <div class="card_body">
+                <div class="card_title">Web前端工程师</div>
+                <div class="card_detail">Web前端开发工程师，主要职责时利用（X）HTML/CSS/JavaScript/<br>flash等各种Web技术进行产品的开发</div>
+            </div>
+        </div>
+        <div class="table">
+            <div class="row">
+                <div class="col_half">门槛<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+                <div class="col_half">难易程度<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"><img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+            </div>
+            <div class="row">
+                <div class="col_half">成长周期<span class="red">1-3</span>年</div>
+                <div class="col_half">稀缺程度<span class="red">345</span>家公司需要</div>
+            </div>
+            <div class="row padding_none">
+                <div class="col_oneofthird salary_title">薪资待遇</div>
+                <div class="col_towofthird">
+                    <div class="row salary">0-1年<span class="">5k-10k/月</span></div>
+                    <div class="row salary">1-3年<span class="">10k-20k/月</span></div>
+                    <div class="row salary">3-5年<span class="">20k-50k/月</span></div>
+                </div>
+            </div>
+            <div class="row"><div>有<span class="red">286</span>人在学</div></div>
+            <div class="row"><div>提示：在你学习之前你应该已经掌握XXXXX、XX等语言基础</div></div>
+        </div>
+        <div class="position_detail ">
+            <h2 >ios工程师</h2>
+            <p class="small mt-5">ios是由苹果公司开发的移动操作系统。ios与苹果的Mac OC X操作系统意义，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</p></div>
+    </div>
+
+</div>
+<div class="position_title"><h4>移动开发方向</h4></div>
+<div class="position_body">
+    <div class="position_card">
+        <div class="card_horizon">
+            <div class="card_logo">
+                <img src="http://118.126.113.248/jnshu835/8/touxiang.png" alt="" class="card_img">
+            </div>
+            <div class="card_body">
+                <div class="card_title">Web前端工程师</div>
+                <div class="card_detail">Web前端开发工程师，主要职责时利用（X）HTML/CSS/JavaScript/<br>flash等各种Web技术进行产品的开发</div>
+            </div>
+        </div>
+        <div class="table">
+            <div class="row">
+                <div class="col_half">门槛<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+                <div class="col_half">难易程度<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"><img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+            </div>
+            <div class="row">
+                <div class="col_half">成长周期<span class="red">1-3</span>年</div>
+                <div class="col_half">稀缺程度<span class="red">345</span>家公司需要</div>
+            </div>
+            <div class="row padding_none">
+                <div class="col_oneofthird salary_title">薪资待遇</div>
+                <div class="col_towofthird">
+                    <div class="row salary">0-1年<span class="">5k-10k/月</span></div>
+                    <div class="row salary">1-3年<span class="">10k-20k/月</span></div>
+                    <div class="row salary">3-5年<span class="">20k-50k/月</span></div>
+                </div>
+            </div>
+            <div class="row"><div>有<span class="red">286</span>人在学</div></div>
+            <div class="row"><div>提示：在你学习之前你应该已经掌握XXXXX、XX等语言基础</div></div>
+        </div>
+        <div class="position_detail ">
+            <h2 >ios工程师</h2>
+            <p class="small mt-5">ios是由苹果公司开发的移动操作系统。ios与苹果的Mac OC X操作系统意义，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</p></div>
+    </div>
+    <div class="position_card">
+        <div class="card_horizon">
+            <div class="card_logo">
+                <img src="http://118.126.113.248/jnshu835/8/touxiang.png" alt="" class="card_img">
+            </div>
+            <div class="card_body">
+                <div class="card_title">Web前端工程师</div>
+                <div class="card_detail">Web前端开发工程师，主要职责时利用（X）HTML/CSS/JavaScript/<br>flash等各种Web技术进行产品的开发</div>
+            </div>
+        </div>
+        <div class="table">
+            <div class="row">
+                <div class="col_half">门槛<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+                <div class="col_half">难易程度<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"><img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+            </div>
+            <div class="row">
+                <div class="col_half">成长周期<span class="red">1-3</span>年</div>
+                <div class="col_half">稀缺程度<span class="red">345</span>家公司需要</div>
+            </div>
+            <div class="row padding_none">
+                <div class="col_oneofthird salary_title">薪资待遇</div>
+                <div class="col_towofthird">
+                    <div class="row salary">0-1年<span class="">5k-10k/月</span></div>
+                    <div class="row salary">1-3年<span class="">10k-20k/月</span></div>
+                    <div class="row salary">3-5年<span class="">20k-50k/月</span></div>
+                </div>
+            </div>
+            <div class="row"><div>有<span class="red">286</span>人在学</div></div>
+            <div class="row"><div>提示：在你学习之前你应该已经掌握XXXXX、XX等语言基础</div></div>
+        </div>
+        <div class="position_detail ">
+            <h2 >ios工程师</h2>
+            <p class="small mt-5">ios是由苹果公司开发的移动操作系统。ios与苹果的Mac OC X操作系统意义，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</p></div>
+    </div>
+    <div class="position_card">
+        <div class="card_horizon">
+            <div class="card_logo">
+                <img src="http://118.126.113.248/jnshu835/8/touxiang.png" alt="" class="card_img">
+            </div>
+            <div class="card_body">
+                <div class="card_title">Web前端工程师</div>
+                <div class="card_detail">Web前端开发工程师，主要职责时利用（X）HTML/CSS/JavaScript/<br>flash等各种Web技术进行产品的开发</div>
+            </div>
+        </div>
+        <div class="table">
+            <div class="row">
+                <div class="col_half">门槛<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+                <div class="col_half">难易程度<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"><img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+            </div>
+            <div class="row">
+                <div class="col_half">成长周期<span class="red">1-3</span>年</div>
+                <div class="col_half">稀缺程度<span class="red">345</span>家公司需要</div>
+            </div>
+            <div class="row padding_none">
+                <div class="col_oneofthird salary_title">薪资待遇</div>
+                <div class="col_towofthird">
+                    <div class="row salary">0-1年<span class="">5k-10k/月</span></div>
+                    <div class="row salary">1-3年<span class="">10k-20k/月</span></div>
+                    <div class="row salary">3-5年<span class="">20k-50k/月</span></div>
+                </div>
+            </div>
+            <div class="row"><div>有<span class="red">286</span>人在学</div></div>
+            <div class="row"><div>提示：在你学习之前你应该已经掌握XXXXX、XX等语言基础</div></div>
+        </div>
+        <div class="position_detail ">
+            <h2 >ios工程师</h2>
+            <p class="small mt-5">ios是由苹果公司开发的移动操作系统。ios与苹果的Mac OC X操作系统意义，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</p></div>
+    </div>
+    <div class="position_card">
+        <div class="card_horizon">
+            <div class="card_logo">
+                <img src="http://118.126.113.248/jnshu835/8/touxiang.png" alt="" class="card_img">
+            </div>
+            <div class="card_body">
+                <div class="card_title">Web前端工程师</div>
+                <div class="card_detail">Web前端开发工程师，主要职责时利用（X）HTML/CSS/JavaScript/<br>flash等各种Web技术进行产品的开发</div>
+            </div>
+        </div>
+        <div class="table">
+            <div class="row">
+                <div class="col_half">门槛<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+                <div class="col_half">难易程度<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"><img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+            </div>
+            <div class="row">
+                <div class="col_half">成长周期<span class="red">1-3</span>年</div>
+                <div class="col_half">稀缺程度<span class="red">345</span>家公司需要</div>
+            </div>
+            <div class="row padding_none">
+                <div class="col_oneofthird salary_title">薪资待遇</div>
+                <div class="col_towofthird">
+                    <div class="row salary">0-1年<span class="">5k-10k/月</span></div>
+                    <div class="row salary">1-3年<span class="">10k-20k/月</span></div>
+                    <div class="row salary">3-5年<span class="">20k-50k/月</span></div>
+                </div>
+            </div>
+            <div class="row"><div>有<span class="red">286</span>人在学</div></div>
+            <div class="row"><div>提示：在你学习之前你应该已经掌握XXXXX、XX等语言基础</div></div>
+        </div>
+        <div class="position_detail ">
+            <h2 >ios工程师</h2>
+            <p class="small mt-5">ios是由苹果公司开发的移动操作系统。ios与苹果的Mac OC X操作系统意义，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</p></div>
+    </div>
+
+
+</div>
+<div class="position_title"><h4>整站开发方向</h4></div>
+<div class="position_body">
+    <div class="position_card">
+        <div class="card_horizon">
+            <div class="card_logo">
+                <img src="http://118.126.113.248/jnshu835/8/touxiang.png" alt="" class="card_img">
+            </div>
+            <div class="card_body">
+                <div class="card_title">Web前端工程师</div>
+                <div class="card_detail">Web前端开发工程师，主要职责时利用（X）HTML/CSS/JavaScript/<br>flash等各种Web技术进行产品的开发</div>
+            </div>
+        </div>
+        <div class="table">
+            <div class="row">
+                <div class="col_half">门槛<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+                <div class="col_half">难易程度<img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"><img src="http://118.126.113.248/jnshu835/8/xing.png" alt="" class="star"></div>
+            </div>
+            <div class="row">
+                <div class="col_half">成长周期<span class="red">1-3</span>年</div>
+                <div class="col_half">稀缺程度<span class="red">345</span>家公司需要</div>
+            </div>
+            <div class="row padding_none">
+                <div class="col_oneofthird salary_title">薪资待遇</div>
+                <div class="col_towofthird">
+                    <div class="row salary">0-1年<span class="">5k-10k/月</span></div>
+                    <div class="row salary">1-3年<span class="">10k-20k/月</span></div>
+                    <div class="row salary">3-5年<span class="">20k-50k/月</span></div>
+                </div>
+            </div>
+            <div class="row"><div>有<span class="red">286</span>人在学</div></div>
+            <div class="row"><div>提示：在你学习之前你应该已经掌握XXXXX、XX等语言基础</div></div>
+        </div>
+        <div class="position_detail ">
+            <h2 >ios工程师</h2>
+            <p class="small mt-5">ios是由苹果公司开发的移动操作系统。ios与苹果的Mac OC X操作系统意义，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</p></div>
+    </div>
+</div>
+
+
+</body>
+</html>

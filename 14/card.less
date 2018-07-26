@@ -1,0 +1,78 @@
+@card_width:20%;
+.features,.stuff{
+  padding: 4rem 0;
+  display: flex;
+  justify-content: space-around;
+  @media screen and (max-width:575.99px){
+    display: flex;
+    flex-direction: column;
+}
+}
+  .card{
+    @media screen and (max-width:575.99px){
+      width: 50%;
+      margin: 0 auto;
+    }
+    width: @card_width;
+  .card_logo{
+    height: 100px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    .card_img{
+      max-height: 100px;
+    }
+  }
+  .card_body{
+    .card_title{
+      text-align: center;
+      font-weight:bold;
+      font-size: 1.2rem;
+      padding: 0.5rem 0;
+    }
+    .card_detail{
+      text-align: left;
+      padding: 0.5rem 0;
+      font-size:0.8rem;
+    }
+  }
+}
+.customer{
+  color: #1db076;
+  background-image: url("http://118.126.113.248/jnshu835/8/user.png");
+  background-repeat:no-repeat;
+  background-position: left center;
+  padding-left:2rem;
+}
+.number{
+  font-size:0.7rem;
+}
+.stuff{
+  @media screen and (max-width:991.99px){
+    display: flex;
+    flex-direction: column;
+  }
+  .card{
+    border: 1px solid gainsboro;
+    border-radius: 5%;
+    width: 15%;
+    padding:1rem;
+    @media screen and (max-width:991.99px){
+      width: 70%;
+      margin: 2rem auto;
+    }
+    .card_logo{
+      img{
+        height: 5rem;
+        width: 5rem;
+        border-radius: 100%;
+      }
+    }
+    .card_body{
+      .card_detail{
+
+        font-size:0.8rem;
+        color: gray;}
+    }
+  }
+}

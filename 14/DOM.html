@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+</head>
+<body>
+<h1>DOM</h1>
+<p>D：document，从网页文件转化而来的文档对象</p>
+<p>O：object，对象</p>
+<p>M：Model,HTML树状模型</p>
+<p>节点node，DOM中HTML树状模型的节点
+<ul>
+    <li>元素节点：element node，HTML中的标签元素</li>
+    <li>文本节点：text node，HTML元素的文本内容</li>
+    <li>属性节点：attribute node，HTML元素的属性与属性值</li></ul></p>
+    <strong>元素的属性和内容是元素节点的子节点；元素的文本节点是该元素的第一个子节点</strong>
+<p>CSS：HTML元素的的层叠样式表，树状结构继承特性</p>
+<p>标识元素属性
+    <ul>
+    <li>Class，类标识符，标识某一类多个元素</li>
+    <li>ID，独立标识符，标识某一个特定元素</li></ul></p>
+<h4>获取元素</h4>
+<p>DOM方法
+<ul>
+    <li>Tagname: document.getElementsByTagName("tagname")得到一个数组包含对象 即使只有一个对象，也会返回数组</li>
+    <li>class: document.getElementsByClass("class")；得到一个数组包含对象 即使只有一个对象，也会返回数组</li>
+    <li>ID: document.getElementById("Id")；得到一个对象</li>
+</ul>
+</p>
+<h4>元素节点的属性和方法</h4>
+elementObject.getAttribute("attributeName")
+elementObject.setAttribute("attributeName",value)
+elementObject.childNodes：获取当前节点的所有子节点，返回数组
+elementObject.firstChild/lastChild:获取当前节点的第一个或最后一个节点
+elementObject.nodeType:获取当前节点的类型 元素节点1属性节点2文本节点3
+elementObject.nodeValue：获取当前节点的内容
+<h4>Event</h4>
+<p>事件处理函数，特定事件发生时调用JS代码；例如onmouseover/click...</p>
+<p>语法Event = "js statements;js statements"</p>
+<p>onclick="return false" 不触发a标签跳转事件</p>
+<p>Event = functionName(this-当前标签元素)</p>
+</body>
+</html>

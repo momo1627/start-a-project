@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .breadcrumb{
+            display: flex;
+            padding: 0.75rem 1rem;
+            list-style: none;
+        }
+        .breadcrumb-item{
+        }
+        .active::before{
+            content: '>';
+            padding:0 0.5rem;
+        }
+        a{
+            text-decoration: none;
+            color:#1db076;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="">Home</a></li>
+        <li class="breadcrumb-item active">Position</li>
+    </ol>
+
+</nav>
+</body>
+</html>
